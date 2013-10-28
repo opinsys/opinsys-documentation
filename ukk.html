@@ -1,0 +1,18 @@
+---
+layout: default
+title: Usein kysyttyä
+weight: 2
+---
+{% include navigation.html %}
+<div class="main-area pure-u-1-2">
+  <h2>{{page.title}}</h2>
+  <p>Tekstiä...</p>
+  <div class="pure-u-1">
+    <h1>Ohjeet:</h1>
+    <ul class="posts">
+      {% for post in site.categories.ukk %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

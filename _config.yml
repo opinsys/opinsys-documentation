@@ -1,0 +1,12 @@
+name: Opinsys ohjesivusto
+markdown: redcarpet
+pygments: true
+variables:
+  name: Opinsys Oy
+  email: tuki@opinsys.fi
+  facebook_page: opinsys
+  github_username: opinsys
+  twitter_username: opinsys
+stylus:
+  compress: false
+  path: ./styles

@@ -1,0 +1,9 @@
+---
+layout: post
+title:  "Kieli"
+date:   2013-10-28 12:31:26
+categories: asetukset
+tags: ohjeet kieli
+---
+
+Tähän tekstiä...

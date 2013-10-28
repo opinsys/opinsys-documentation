@@ -1,0 +1,15 @@
+---
+layout: default
+---
+<h2>{{ page.title }}</h2>
+<p class="meta">{{ page.date | date_to_string }}</p>
+
+<div class="post pure-u-1-2">
+{{ content }}
+</div>
+<section class="post-categories">
+  <h3>Kategoriat:</h3>
+  {% for tag in page.tags %}
+    <li><span>{{tag}}</span></li>
+  {% endfor %}
+</section>
