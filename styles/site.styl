@@ -2,9 +2,12 @@
   padding 0 2%
 
 .site
+  background-color baseBg
+  border 5px solid baseBorderColor
   font-size 115%
-  margin 3em auto 2em
+  margin 2% auto 0
   max-width 1018px
+  padding 1%
   text-align left
   width 80%
   .header
@@ -18,27 +21,30 @@
           color #000
     .title
       display inline-block
-      a
-        color #a00
-        &:hover
-          color #000
+      margin 0 0 2%
   .meta
     color #aaa
   .footer
     font-size 80%
     color #666
-    border-top 4px solid #eee
-    margin-top 2em
+    border-top 2px solid baseBorderColor
+    margin-top 2%
     overflow hidden
     .contact
       float left
       margin-right 3em
-      a
-        color #8085C1
     .rss
       margin-top 1.1em
       margin-right -.2em
       float right
       img
         border 0
+.logo
+  vertical-align middle
+  width 200px
 
+.wrapper
+  background-color white
+  border 1px solid darkBorderColor
+  border-radius 4px
+  padding 2%

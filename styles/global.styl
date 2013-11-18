@@ -6,11 +6,11 @@ html, body
   height 100%
 
 body
-  background-color rgb(220,220,220)
+  background-color baseBg
+  background-image linear-gradient baseBg 0%, baseGradientBg 100%
   font 100% "Helvetica Neue", Arial, sans-serif
   font-size small
-  text-align center
-  margin 0 auto
+  color baseFont
 
 h1
   font-size 250%
@@ -30,10 +30,8 @@ p
   margin 1em 0
 
 a
-  color #00a
+  color linkColor
   font-size 90%
   text-decoration none
   &:hover
-    color #000
-  &:visited
-    color #a0a
+    color linkHover
