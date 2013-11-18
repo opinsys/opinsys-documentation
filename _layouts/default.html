@@ -13,24 +13,30 @@
   </head>
   <body>
     <div class="site pure-g-r">
-      <div class="header pure-u-1">
-        <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-      </div>
-      <div class="pure-u-1">
-        {{ content }}
-      </div>
-      <div class="footer pure-u-1">
-        <div class="contact">
-          <p>
-            {{site.variables.name}}<br />
-            {{site.variables.email}}
-          </p>
+      <div class="wrapper">
+        <div class="header pure-u-1">
+          <h1 class="title">
+            <a href="/" title="{{site.name}}">
+              <img class="logo" src="images/opinsys_logo.png">-ohjesivusto
+            </a>
+          </h1>
         </div>
-        <div class="contact">
-          <p>
-            <a href="https://facebook.com/{{site.variables.facebook_page}}">facebook.com/{{site.variables.facebook_page}}</a><br />
-            <a href="https://twitter.com/{{site.variables.twitter_username}}">twitter.com/{{site.variables.twitter_username}}</a><br />
-          </p>
+        <div class="pure-u-1">
+          {{ content }}
+        </div>
+        <div class="footer pure-u-1">
+          <div class="contact">
+            <p>
+              {{site.variables.name}}<br />
+              {{site.variables.email}}
+            </p>
+          </div>
+          <div class="contact">
+            <p>
+              <a href="https://facebook.com/{{site.variables.facebook_page}}">facebook.com/{{site.variables.facebook_page}}</a><br />
+              <a href="https://twitter.com/{{site.variables.twitter_username}}">twitter.com/{{site.variables.twitter_username}}</a><br />
+            </p>
+          </div>
         </div>
       </div>
     </div>
