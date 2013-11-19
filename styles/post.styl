@@ -1,14 +1,17 @@
 .post
+  p
+    font-size 85%
   pre
     border 1px solid #ddd
     background-color #eef
-    padding 0 .4em
+    font-size 90%
+    padding 2%
     code
       border none
     &.terminal
-      border 1px solid #000
+      border 1px solid baseBorderColor
       background-color #333
-      color #FFF
+      color white
       code
         background-color #333
   code
@@ -20,6 +23,9 @@
   margin-left 1.35em
 
 .post-categories
+  margin 2% 0 0
+  h3
+    margin 0
   li
     list-style none
     display inline-block
@@ -27,5 +33,6 @@
       span:after
         content ""
     span
+      font-size 90%
       &:after
         content ","

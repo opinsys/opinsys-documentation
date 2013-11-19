@@ -1,16 +1,20 @@
 *
+  box-sizing border-box
   margin 0
   padding 0
 
 html, body
   height 100%
 
+body,
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"]
+  font-family 'Open Sans','Helvetica Neue', Arial, sans-serif
 body
   background-color baseBg
-  background-image linear-gradient baseBg 0%, baseGradientBg 100%
-  font 100% "Helvetica Neue", Arial, sans-serif
-  font-size small
+  background-image linear-gradient(baseBg 0%, baseGradientBg 100%)
   color baseFont
+  font-size 90%
 
 h1
   font-size 250%
@@ -24,10 +28,13 @@ h5
   font-size 110%
 h6
   font-size 100%
-
-
 p
+  font-size 90%
   margin 1em 0
+
+h1, h2, h3, h4, h5, h6, p
+  font-weight normal
+  margin 0 0 2%
 
 a
   color linkColor
@@ -35,3 +42,11 @@ a
   text-decoration none
   &:hover
     color linkHover
+
+ul
+  margin 0
+  padding 0 0 0 2%
+
+hr
+  border 1px solid baseBorderColor
+  margin 2% 0
