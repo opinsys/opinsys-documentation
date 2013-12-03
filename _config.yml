@@ -1,8 +1,10 @@
 name: Opinsys ohjesivusto
 markdown: redcarpet
 pygments: true
+permalink: /:categories/:title
 variables:
   name: Opinsys Oy
+  site_name: ohjeet.opinsys.fi
   email: tuki@opinsys.fi
   facebook_page: opinsys
   github_username: opinsys
