@@ -11,7 +11,9 @@ layout: default
 </div>
 <section class="post-categories">
   <h3>Kategoriat:</h3>
+  <ul>
   {% for tag in page.tags %}
     <li><span>{{tag}}</span></li>
   {% endfor %}
+  </ul>
 </section>
