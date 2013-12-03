@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "Chromium"
+date:   2013-10-28 11:31:26
+categories: ohjelmat
+tags: ohjeet internet selain chromium
+---
+### Yleistä
+Chromium on avoimen lähdekoodin verkkoselainprojekti, jolle Googlen Chrome-selain pohjautuu.
+
+---
+
+### Kirjanmerkit
+
+Lisää sivu kirjanmerkkeihin:
+<pre>Kirjanmerkit -> Aseta tämä sivu kirjanmerkiksi (Ctrl+D)</pre>
+
+Kirjanmerkkien hallinta:
+<pre>Kirjanmerkit -> Kirjanmerkkien hallinta (Shift+Ctrl+O)</pre>
+
+---
+
+### Laajennukset
+Chromiumin laajennusten hallintaan pääsee:
+<pre>Työkalut -> Laajennukset</pre>

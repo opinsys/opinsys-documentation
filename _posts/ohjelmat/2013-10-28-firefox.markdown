@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Firefox"
+date:   2013-10-28 11:31:26
+categories: ohjelmat
+tags: ohjeet internet selain firefox
+---
+### Yleistä
+Firefox on ilmainen vapaan lähdekoodin internet-selain.
+
+---
+
+### Kirjanmerkit
+Juttua kirjanmerkeistä
+
+Lisää sivu kirjanmerkkeihin:
+<pre>Kirjanmerkit -> Lisää sivu kirjanmerkkeihin (Ctrl+D)</pre>
+
+---
+
+### Lisäosat
+Firefoxin lisäosien hallintaan pääsee:
+<pre>Työkalut -> Lisäosat (Ctrl+Shift+A)</pre>
