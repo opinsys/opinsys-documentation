@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Laitteisto
-icon: icon-desktop
+title: Käyttöliittymä ja perustoiminnot
+icon: icon-rocket
 ---
 <div class="main-area pure-u-1">
   <h2>{{page.title}}</h2>
@@ -9,7 +9,7 @@ icon: icon-desktop
   <div class="pure-u-1">
     <h3>Ohjeet:</h3>
     <ul class="posts">
-      {% for post in site.categories.laitteisto %}
+      {% for post in site.categories.kayttoliittyma-ja-perustoiminnot %}
         <li><a href="{{ post.url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>

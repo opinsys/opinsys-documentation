@@ -1,0 +1,23 @@
+---
+layout: default
+title: Ongelmatilanteet ja tuki
+weight: 2
+icon: icon-help-circled
+---
+<div class="main-area pure-u-1">
+  <h2>{{page.title}}</h2>
+  <p>Opinsys-tukipalvelu: tuki.opinsys.fi</p>
+  <p>Puhelintuki: klo 8-16, 014-xxxxxxxxx</p>
+  <h3>Yleisimmät ongelmatapaukset</h3>
+  <ul>
+    <li>#Ongelma 1</li>
+  </ul>
+  <div class="pure-u-1">
+    <h3>Ohjeet:</h3>
+    <ul class="posts">
+      {% for post in site.categories.ongelmatilanteet-ja-tuki %}
+        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
