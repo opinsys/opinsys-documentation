@@ -1,7 +1,15 @@
 <ul class="breadcrumbs">
+
   {% for p in page.ancestors %}
     <li><a href="{{ p.url }}">{{ p.title }}</a>
     <li class="divider">&gt;</li>
   {% endfor %}
+
+  {% if page.categories %}
+  <li><a href="/{{page.categories}}/index.html">Takaisin</a></li>
+  <li class="divider">&gt;</li>
+  {% endif %}
+
   <li class="active">{{ page.title }}</li>
+
 </ul>
