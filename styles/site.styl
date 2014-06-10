@@ -1,10 +1,6 @@
 .site
-  font-size 115%
-  height 100%
-  margin 0
-  padding 0
-  text-align left
-  width 100%
+  margin 2rem auto 0
+  max-width 1200px
 .header
   a
     font-weight bold
@@ -12,7 +8,7 @@
     &.extra
       color #aaa
       margin-left 1em
-      &:hover
+      &hover
         color #000
   .title
     display inline-block
@@ -39,19 +35,20 @@
       border 0
 .wrapper
   background-color white
-  border-bottom 1px solid baseBorderColor
-  border-right 1px solid baseBorderColor
-  margin-left 235px
-  max-width 1000px
-  padding 2%
+  background-clip padding-box
+  border 5px solid baseOrangeAlhpa
+  box-shadow 2px -2px 2px rgba(0, 0, 0, 0.5), -2px 2px 2px rgba(0, 0, 0, 0.5), inset 0 5px 100px rgba(65, 120, 107, 0.2)
+  margin 1rem
+  max-width 1200px
+  padding 2rem
+  position relative
 
 .main-area
   padding 0
   h2
-    background-color baseBrown
-    background-image linear-gradient(lightBrown 0%, baseBrown 100%)
+    background-color lightBrown
     color white
-    padding 1%
+    padding 1rem
 
 .logo
   vertical-align middle
@@ -64,3 +61,10 @@
 
 .video
   max-width 100%
+
+@media screen-breakpoint-two
+  .site
+    margin 0
+  .wrapper
+    margin 0
+    padding 1rem

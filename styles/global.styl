@@ -3,9 +3,6 @@
   margin 0
   padding 0
 
-html, body
-  height 100%
-
 body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"]
@@ -14,7 +11,7 @@ body
   background-color baseBg
   background-image linear-gradient(baseBg 0%, baseGradientBg 100%)
   color baseFont
-  font-size 90%
+  font-size 100%
 
 h1
   font-size 250%
@@ -30,7 +27,7 @@ h6
   font-size 100%
 p
   font-size 90%
-  margin 1em 0
+  margin 1rem 0
 
 h1, h2, h3, h4, h5, h6, p
   font-weight normal
@@ -50,3 +47,7 @@ ul
 hr
   border 1px solid baseBorderColor
   margin 2% 0
+
+@media screen-breakpoint-two
+  body
+    font-size 80%

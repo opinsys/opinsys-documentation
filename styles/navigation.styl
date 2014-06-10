@@ -1,3 +1,4 @@
+
 .breadcrumbs
   font-size 80%
   margin 0 0 2%
@@ -15,23 +16,57 @@
   height 100%
 .site-navigation
   font-size 80%
-  margin 0 0 2%
+  margin 1rem 0
   position relative
+  width 100%
   .main-navigation
-    background-color lightBrown
-    border-right 1px solid baseBorderColor
-    bottom 0
-    left 0
-    padding 2% 0 0
-    position fixed
-    top 0
-    width 235px
+    ul
+      width 100%
     li
+      text-align center
+      width 33%
+      &:hover
+        background-color baseBrown
       a
+        background-color lightBrown
         color almostWhite
-      a:hover
+        font-size 120%
+        margin 0 .2rem 0 0
+        padding 2rem
+      :hover
         background-color baseBrown
         color white
     .active
       background-color baseBrown
       color white
+  [class^="icon-"]
+    font-size 500%
+    display block
+    margin 2rem 0 0
+
+@media screen-breakpoint-one
+  .site-navigation
+    .main-navigation
+      li
+        a
+          font-size 105%
+          padding 1rem
+
+@media screen-breakpoint-two
+  .site-navigation
+    .main-navigation
+      li
+        a
+          font-size 100%
+          padding .5rem
+
+@media screen-breakpoint-three
+  .site-navigation
+    .main-navigation
+      li
+        margin 0.5rem 0 0
+        width 100%
+        a
+          font-size 120%
+    [class^="icon-"]
+      margin 1rem 0 0
