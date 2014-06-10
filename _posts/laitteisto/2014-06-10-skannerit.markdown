@@ -3,10 +3,10 @@ layout: post
 title:  "Skannerit"
 date:   2014-10-06 11:31:26
 categories: laitteisto
-tags: ohjeet internet 'Google Earth'
+tags: ohjeet skannerit
 ---
 ### Yleistä
-Google Earth on karttapalvelu, joka yhdistää satelliitti- ja ilmakuvia sekä paikkatietoja muodostaen maapallon kolmiulotteisen kuvan.
+Tekstiä...
 
 ---
 
