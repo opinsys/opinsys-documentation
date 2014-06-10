@@ -6,42 +6,43 @@
     <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/pure-min.css">
-    <!-- syntax highlighting CSS -->
-    <link rel="stylesheet" href="/css/syntax.css">
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+    <!-- icon font CSS -->
+    <link rel="stylesheet" href="/vendor/fontello-opinsys-documentation/css/opinsys-documentation.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/styles/master.css">
   </head>
   <body>
-    <div class="site pure-g-r pure-u-1">
-      {% include navigation.html %}
-      <div class="pure-u-1 main">
-        <div class="wrapper">
-          <div class="header pure-u-1">
-            <h1 class="title">
-              <a href="/" title="{{site.name}}">
-                <img class="logo" src="/images/opinsys_logo.png">-ohjesivusto
-              </a>
-            </h1>
+    <div class="site">
+      <div class="wrapper">
+        <div class="header pure-u-1">
+          <h1 class="title">
+            <a href="/" title="{{site.name}}">
+              <img class="logo" src="/images/opinsys_logo.png">-ohjesivusto
+            </a>
+          </h1>
+        </div>
+        <div class="pure-u-1">
+          {% include breadcrumb.html %}
+          {{ content }}
+        </div>
+        <div class="footer pure-u-1">
+          <div class="contact">
+            <p>
+              <span>{{site.variables.name}}</span>
+              <span><a href="http://{{site.variables.site_name}}">{{site.variables.site_name}}</a></span>
+              <span>{{site.variables.email}}</span>
+            </p>
           </div>
-          <div class="pure-u-1">
-            {% include breadcrumb.html %}
-            {{ content }}
-          </div>
-          <div class="footer pure-u-1">
-            <div class="contact">
-              <p>
-                <span>{{site.variables.name}}</span>
-                <span><a href="http://{{site.variables.site_name}}">{{site.variables.site_name}}</a></span>
-                <span>{{site.variables.email}}</span>
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://facebook.com/{{site.variables.facebook_page}}">facebook.com/{{site.variables.facebook_page}}</a><br />
-                <a href="https://twitter.com/{{site.variables.twitter_username}}">twitter.com/{{site.variables.twitter_username}}</a><br />
-              </p>
-            </div>
+          <div class="contact">
+            <p>
+              <i class="icon-facebook-squared"></i>
+              <a href="https://facebook.com/{{site.variables.facebook_page}}">facebook.com/{{site.variables.facebook_page}}</a>
+            </p>
+            <p>
+              <i class="icon-twitter-squared"></i>
+              <a href="https://twitter.com/{{site.variables.twitter_username}}">twitter.com/{{site.variables.twitter_username}}</a>
+            </p>
           </div>
         </div>
       </div>
