@@ -1,12 +1,17 @@
 <section class="site-navigation pure-u">
-  <nav class="pure-menu pure-menu-open main-navigation">
+  <nav class="pure-menu pure-menu-open pure-menu-horizontal main-navigation">
     <ul>
       {% for pages in site.pages %}
-        <li>
+        {% if pages.title != "Etusivu" %}
           {% if pages.title %}
-            <a {% if pages.url == page.url %}class="active"{% endif %} href="{{pages.url}}">{{pages.title}}</a>
+            <li>
+              <a {% if pages.url == page.url %}class="active"{% endif %} href="{{pages.url}}">
+                {{pages.title}}
+                <i class="{{pages.icon}}"></i>
+              </a>
+            </li>
           {% endif %}
-        </li>
+        {% endif %}
       {% endfor %}
     </ul>
   </nav>
