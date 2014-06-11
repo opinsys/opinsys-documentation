@@ -2,10 +2,12 @@ name: Opinsys ohjesivusto
 markdown: redcarpet
 highlighter: pygments
 permalink: /:categories/:title
+baseurl: /opinsys-documentation
 variables:
   email: tuki@opinsys.fi
   facebook_page: opinsys
   github_username: opinsys
+  github_repo: opinsys-documentation
   home_page: http://www.opinsys.fi
   name: Opinsys Oy
   site_name: ohjeet.opinsys.fi
