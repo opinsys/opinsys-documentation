@@ -3,12 +3,14 @@ markdown: redcarpet
 pygments: true
 permalink: /:categories/:title
 variables:
-  name: Opinsys Oy
-  site_name: ohjeet.opinsys.fi
   email: tuki@opinsys.fi
   facebook_page: opinsys
   github_username: opinsys
+  home_page: http://www.opinsys.fi
+  name: Opinsys Oy
+  site_name: ohjeet.opinsys.fi
   twitter_username: opinsys
+  youtube_username: opinsys
 stylus:
   compress: false
   path: ./styles
