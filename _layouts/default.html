@@ -10,17 +10,17 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <!-- icon font CSS -->
-    <link rel="stylesheet" href="/vendor/fontello-opinsys-documentation/css/opinsys-documentation.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/vendor/fontello-opinsys-documentation/css/opinsys-documentation.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/styles/master.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles/master.css">
   </head>
   <body>
     <div class="site">
       <div class="wrapper">
         <div class="header pure-u-1">
           <h1 class="title">
-            <a href="/" title="{{site.name}}">
-              <img class="logo" src="/images/opinsys_logo.png">-ohjesivusto
+            <a href="{{ site.baseurl }}/" title="{{site.name}}">
+              <img class="logo" src="{{ site.baseurl }}/images/opinsys_logo.png">-ohjesivusto
             </a>
           </h1>
         </div>
@@ -32,7 +32,7 @@
         {% include footer.html %}
       </div>
     </div>
-    <script src="/vendor/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="{{ site.baseurl }}/vendor/js/search.min.js" type="text/javascript" charset="utf-8"></script>
     {% raw %}
       <script id="search-results-template" type="text/mustache">
         {{#entries}}
@@ -44,16 +44,16 @@
           </article>
         {{/entries}}
       </script>
+    {% endraw %}
       <script type="text/javascript">
       $(function() {
         $('#search-query').lunrSearch({
-          indexUrl: '/search.json',             // URL of the `search.json` index data for your site
+          indexUrl: '{{ site.baseurl }}/search.json',             // URL of the `search.json` index data for your site
           results:  '#search-results',          // jQuery selector for the search results container
           entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
           template: '#search-results-template'  // jQuery selector for the Mustache.js template
         });
       });
     </script>
-  {% endraw %}
   </body>
 </html>
