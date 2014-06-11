@@ -5,13 +5,14 @@ weight: 2
 icon: icon-help-circled
 ---
 <div class="main-area pure-u-1">
-  <h2>{{page.title}}</h2>
+  <h2 class="main-title">{{page.title}}</h2>
   <p>Opinsys-tukipalvelu: tuki.opinsys.fi</p>
   <p>Puhelintuki: klo 8-16, 014-xxxxxxxxx</p>
   <h3>Yleisimmät ongelmatapaukset</h3>
   <ul>
     <li>#Ongelma 1</li>
   </ul>
+ {% if site.categories.ongelmatilanteet-ja-tuki %}
   <div class="pure-u-1">
     <h3>Ohjeet:</h3>
     <ul class="posts">
@@ -20,4 +21,5 @@ icon: icon-help-circled
       {% endfor %}
     </ul>
   </div>
+  {% endif %}
 </div>

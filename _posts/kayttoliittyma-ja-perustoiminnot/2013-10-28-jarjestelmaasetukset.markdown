@@ -6,4 +6,6 @@ categories: kayttoliittyma-ja-perustoiminnot
 tags: ohjeet järjestelmäasetukset
 ---
 
-Tähän tekstiä...
+Jokainen käyttäjä voi muokata tiettyjä asetuksia, jotka pysyvät käyttäjäprofiilissa riippumatta siitä, mille koneelle kirjautuu. Tällaisia asetuksia ovat X, Y ja Z. [KUVAT]
+
+![Järjestelmäasetukset]({{ site.url }}/assets/jarjestelmaasetukset.png)
