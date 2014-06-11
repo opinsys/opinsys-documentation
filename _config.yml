@@ -1,6 +1,6 @@
 name: Opinsys ohjesivusto
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 permalink: /:categories/:title
 variables:
   email: tuki@opinsys.fi
