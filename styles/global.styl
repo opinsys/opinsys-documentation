@@ -47,6 +47,15 @@ ul
 hr
   border 1px solid baseBorderColor
   margin 2% 0
+img
+  max-width 100%
+
+.clearfix
+  &:after
+    clear both
+  &:before, &:after
+    content " "
+    display table
 
 @media screen-breakpoint-two
   body
