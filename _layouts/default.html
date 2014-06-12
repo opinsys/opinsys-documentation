@@ -16,16 +16,19 @@
   </head>
   <body>
     <div class="site">
-      <div class="wrapper">
-        <div class="header pure-u-1">
-          <h1 class="title">
+      <header class="site-header pure-u-1" >
+        <div class="wrapper pure-g">
+          <h1 class="title pure-u-1-2">
             <a href="{{ site.baseurl }}/" title="{{site.name}}">
-              <img class="logo" src="{{ site.baseurl }}/images/opinsys_logo.png">-ohjesivusto
+              <img class="logo" src="{{ site.baseurl }}/images/opinsys_logo.png">
             </a>
+            <a href="{{ site.baseurl }}/" title="{{site.name}}">ohjeet.opinsys.fi</a>
           </h1>
+            {% include search.html %}
         </div>
+      </header>
+      <div class="wrapper">
         <div class="pure-u-1">
-          {% include search.html %}
           {% include breadcrumb.html %}
           {{ content }}
         </div>
