@@ -6,7 +6,9 @@
   {% endfor %}
 
   {% if page.categories %}
-  <li><a href="{{ site.baseurl }}/{{page.categories}}/index.html">Takaisin</a></li>
+  <li><a href="{{ site.baseurl }}/">Etusivu</a></li>
+  <li class="divider">&gt;</li>
+  <li><a href="{{ site.baseurl }}/{{page.categories}}/index.html">{{page.parent_page_title}}</a></li>
   <li class="divider">&gt;</li>
   {% endif %}
 
