@@ -1,4 +1,4 @@
-opinsys-documentation
+Opinsys-documentation
 =====================
 
 Opinsys system documentation
@@ -8,6 +8,15 @@ Opinsys system documentation
 ### Local development
 ```bash
   jekyll serve --watch --baseurl ''
+```
+
+### Publish site to gh-pages
+Edit/add/remove files while local development mode. When you are done:
+
+```bash
+jekyll build
+git add _site && git commit -m "YOUR COMMIT MESSAGE"
+git subtree push --prefix _site origin gh-pages
 ```
 
 ### Uses
