@@ -211,6 +211,9 @@ img {
     font-weight: 200;
   }
 }
+.post img {
+  max-width: 500px;
+}
 .post p {
   font-size: 85%;
 }

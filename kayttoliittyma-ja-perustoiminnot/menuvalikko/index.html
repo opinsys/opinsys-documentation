@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
     <!-- icon font CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/vendor/fontello-opinsys-documentation/css/opinsys-documentation.css">
+    <!--  Swipebox CSS -->
+    <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/styles/master.css">
   </head>
@@ -117,7 +119,8 @@
 </div>
       </div>
     </div>
-    <script src="/opinsys-documentation/vendor/js/search.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/opinsys-documentation/vendor/js/search.min.js"></script>
+    <script src="/opinsys-documentation/vendor/swipebox/js/jquery.swipebox.min.js"></script>
     
       <script id="search-results-template" type="text/mustache">
         {{#entries}}
@@ -141,5 +144,12 @@
         });
       });
     </script>
+    <script type="text/javascript">
+    ;( function( $ ) {
+
+      $( '.swipebox' ).swipebox();
+
+    } )( jQuery );
+</script>
   </body>
 </html>
