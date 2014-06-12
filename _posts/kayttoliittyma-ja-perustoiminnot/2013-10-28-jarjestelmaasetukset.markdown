@@ -9,4 +9,4 @@ tags: ohjeet järjestelmäasetukset
 
 Jokainen käyttäjä voi muokata tiettyjä asetuksia, jotka pysyvät käyttäjäprofiilissa riippumatta siitä, mille koneelle kirjautuu. Tällaisia asetuksia ovat X, Y ja Z. [KUVAT]
 
-![Järjestelmäasetukset]({{ site.baseurl }}/assets/jarjestelmaasetukset.png)
+<a href="{{ site.baseurl }}/assets/jarjestelmaasetukset.png" class="swipebox" title="Järjestelmäasetukset"><img src="{{ site.baseurl }}/assets/jarjestelmaasetukset.png" alt="Järjestelmäasetukset"></a>
