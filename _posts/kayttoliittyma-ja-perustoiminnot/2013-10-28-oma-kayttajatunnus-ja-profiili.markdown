@@ -3,6 +3,7 @@ layout: post
 title:  "Käyttäjätunnukset ja -profiili"
 date:   2013-10-28 11:31:26
 categories: kayttoliittyma-ja-perustoiminnot
+parent_page_title: Käyttöliittymä ja perustoiminnot
 tags: ohjeet käyttäjätunnus profiili
 ---
 ### Käyttäjätunnukset

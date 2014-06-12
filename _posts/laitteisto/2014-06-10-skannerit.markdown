@@ -3,6 +3,7 @@ layout: post
 title:  "Skannerit"
 date:   2014-10-06 11:31:26
 categories: laitteisto
+parent_page_title: Laitteisto
 tags: ohjeet skannerit
 ---
 ### Yleistä

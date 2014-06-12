@@ -3,6 +3,7 @@ layout: post
 title:  "Profiilin tietojen muokkaus"
 date:   2013-10-28 12:31:26
 categories: kayttoliittyma-ja-perustoiminnot
+parent_page_title: Käyttöliittymä ja perustoiminnot
 tags: ohjeet profiili käyttäjäprofiili
 ---
 
