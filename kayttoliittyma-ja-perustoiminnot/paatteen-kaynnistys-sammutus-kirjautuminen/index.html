@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Ohjelmavalikko</title>
+    <title>Päätteen käynnistys ja sammutus sekä päätteelle kirjautuminen</title>
     <meta name="viewport" content="width=device-width">
     <!-- We don't want this to be found in search engines yet -->
     <meta name="robots" content="noindex, nofollow">
@@ -53,29 +53,25 @@
   <li class="divider">&gt;</li>
   
 
-  <li class="active">Ohjelmavalikko</li>
+  <li class="active">Päätteen käynnistys ja sammutus sekä päätteelle kirjautuminen</li>
 
 </ul>
           <div class="main-area pure-u-1">
-  <h2 class="main-title">Ohjelmavalikko</h2>
-  <p class="meta">11.06.2014</p>
+  <h2 class="main-title">Päätteen käynnistys ja sammutus sekä päätteelle kirjautuminen</h2>
+  <p class="meta">16.06.2014</p>
 
   <div class="post pure-u-1">
-  <h2>Yleisesittely</h2>
+  <h2>Käynnistys</h2>
 
-<p>Opinsys-järjestelmän Menu löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alareunasta.</p>
+<p>Pääte käynnistetään painamalla sen etupaneelissa olevasta virtapainikkeesta. [KUVA]</p>
 
-<hr>
+<h2>Sammutus</h2>
 
-<h2>Ohjelmien käynnistäminen</h2>
+<p>Pääte sammutetaan “Poistu”-valikon kautta klikkaamalla “Sammuta”-painiketta [KUVAT (Kirjautumisruutu, alapaneelin sammuta-nappi, webmenu)]</p>
 
-<p>Lorem...</p>
+<h2>Kirjautuminen</h2>
 
-<hr>
-
-<h2>Haku-toiminto</h2>
-
-<p>Lorem...</p>
+<p>Kirjaudu päätteelle syöttämällä Opinsys-järjestelmän tunnus ja salasana kirjautumisruudussa [KUVA]</p>
 
   </div>
 </div>
@@ -85,11 +81,11 @@
   
     <li><span>ohjeet</span></li>
   
-    <li><span>ohjelmavalikko</span></li>
+    <li><span>käynnistys</span></li>
   
-    <li><span>sovelluskäynnistin</span></li>
+    <li><span>sammutus</span></li>
   
-    <li><span>menu</span></li>
+    <li><span>kirjautuminen</span></li>
   
   </ul>
 </section>
@@ -145,11 +141,14 @@
       });
     </script>
     <script type="text/javascript">
-    ;( function( $ ) {
+      !(function($) {
+        $( '.swipebox' ).swipebox({
+          hideBarsDelay : 0
+        });
+        $( '.swipebox-video' ).swipebox();
 
-      $( '.swipebox' ).swipebox();
-
-    } )( jQuery );
-</script>
+        $("table").addClass("pure-table pure-table-bordered pure-table-striped");
+      })(jQuery);
+    </script>
   </body>
 </html>

@@ -6,7 +6,27 @@
 
   </url>
   <url>
-    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/menuvalikko</loc>
+    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/tiedostot-ja-kansiot</loc>
+    <lastmod>2014-06-16</lastmod>
+
+  </url>
+  <url>
+    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/internet-ja-viestinta</loc>
+    <lastmod>2014-06-16</lastmod>
+
+  </url>
+  <url>
+    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/paatteen-kaynnistys-sammutus-kirjautuminen</loc>
+    <lastmod>2014-06-16</lastmod>
+
+  </url>
+  <url>
+    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/aaniasetukset</loc>
+    <lastmod>2014-06-16</lastmod>
+
+  </url>
+  <url>
+    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/ohjelmien-kaynnistaminen</loc>
     <lastmod>2014-06-11</lastmod>
 
   </url>
@@ -26,12 +46,7 @@
 
   </url>
   <url>
-    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/oma-kayttajatunnus-ja-profiili</loc>
-    <lastmod>2013-10-28</lastmod>
-
-  </url>
-  <url>
-    <loc>/opinsys-documentation/laitteisto/koneen-kaynnistaminen-ja-sammuttaminen-seka-koneelle-kirjautuminen</loc>
+    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/kayttajatunnus-ja-profiili</loc>
     <lastmod>2013-10-28</lastmod>
 
   </url>
@@ -47,16 +62,6 @@
   </url>
   <url>
     <loc>/opinsys-documentation/laitteisto/alytaulut</loc>
-    <lastmod>2013-10-28</lastmod>
-
-  </url>
-  <url>
-    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/jarjestelmaasetukset</loc>
-    <lastmod>2013-10-28</lastmod>
-
-  </url>
-  <url>
-    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/kirjautuminen-ja-uloskirjautuminen</loc>
     <lastmod>2013-10-28</lastmod>
 
   </url>

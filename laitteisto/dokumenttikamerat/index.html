@@ -135,11 +135,14 @@
       });
     </script>
     <script type="text/javascript">
-    ;( function( $ ) {
+      !(function($) {
+        $( '.swipebox' ).swipebox({
+          hideBarsDelay : 0
+        });
+        $( '.swipebox-video' ).swipebox();
 
-      $( '.swipebox' ).swipebox();
-
-    } )( jQuery );
-</script>
+        $("table").addClass("pure-table pure-table-bordered pure-table-striped");
+      })(jQuery);
+    </script>
   </body>
 </html>
