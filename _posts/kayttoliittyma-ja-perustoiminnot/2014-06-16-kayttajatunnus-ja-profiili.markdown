@@ -6,15 +6,15 @@ categories: kayttoliittyma-ja-perustoiminnot
 parent_page_title: Käyttöliittymä ja perustoiminnot
 tags: ohjeet käyttäjätunnus profiili
 ---
-### Käyttäjätunnukset
+## Käyttäjätunnukset
 Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätunnus ja salasana, joilla käyttäjä pääsee omalle työpöydälle ja tiedostoihin. Järjestelmä kysyy käyttäjätunnusta aina käynnistyksen yhteydessä. Turvallisuussyistä omaa salasanaa ei tule koskaan kertoa kenellekään toiselle.
 
 ---
 
-### Salasanan vaihto
+## Salasanan vaihto
 Jokaisella käyttäjällä on mahdollisuus vaihtaa oma salasanansa. Ensisijainen tapa on avata salasanan vaihtolomake Menu > Salasana ja täyttää avautuva lomake.
 <pre>Menu -> Salasana</pre>
 
 Ohessa ohjevideo:
 
-<iframe class="video" width="560" height="315" src="//www.youtube.com/embed/c0BJZy7sXlA" frameborder="0" allowfullscreen></iframe>
+### <a class="swipebox-video" href="http://www.youtube.com/watch?v=c0BJZy7sXlA">Salasanan vaihto</a>
