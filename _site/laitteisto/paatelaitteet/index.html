@@ -65,6 +65,45 @@
 
 <p>Opinsys-järjestelmässä voi olla käyttäjän näkökulmasta karkeasti jaettuna kahden tyyppisiä päätelaitteita, kiinteästi asennettuja ja langattomia.</p>
 
+<table><thead>
+<tr>
+<th>Laitetyyppi</th>
+<th>Laitteen käyttö</th>
+<th>Käyttöprofiili</th>
+<th>Käyttäjän tietojen sijainti</th>
+<th>Laitevaatimus</th>
+</tr>
+</thead><tbody>
+<tr>
+<td>Kevytpääte</td>
+<td>Kiinteästi asennettu</td>
+<td><ul><li>Tiedonhaku</li><li>Tekstintuottaminen</li></ul></td>
+<td>Koulun palvelin</td>
+<td>Keskusmuisti 256 Mt</td>
+</tr>
+<tr>
+<td>Tehopääte</td>
+<td>Kiinteästi asennettu</td>
+<td><ul><li>Kuvankäsittely</li><li>Videonkäsittely</li><li>Kokoruudunvideon ja äänen toistaminen</li><li>3D-grafiikkaa vaativat sovellukset (Google Earth, Stellarium ym.)</li><li>USB-lisälaitteet (älytaulu, skanneri, tulostin, webbikamera jne.)</li></ul></td>
+<td>Koulun palvelin</td>
+<td>Keskusmuisti &gt;2 Gt</td>
+</tr>
+<tr>
+<td>Kannettava</td>
+<td>Mobiili/langaton</td>
+<td>-</td>
+<td>Kannettava / koulun palvelin</td>
+<td>Keskusmuisti &gt; 1,5 Gt Kovalevy &gt; 60Gt</td>
+</tr>
+<tr>
+<td>Tukiasema / Infotv</td>
+<td>Kiinteästi asennettu</td>
+<td><ul><li>Tukiasema mobiililaitteille (kannettavat, padit, puhelimet)</li><li>Viestien näyttäminen koulun tiloissa</li></ul></td>
+<td>-</td>
+<td>-</td>
+</tr>
+</tbody></table>
+
 <hr>
 
 <h3>Kevytpääte</h3>
@@ -152,11 +191,14 @@ Kevytpäätelaitteelle on ominaista sovellusten nopea käynnistyminen, mutta toi
       });
     </script>
     <script type="text/javascript">
-    ;( function( $ ) {
+      !(function($) {
+        $( '.swipebox' ).swipebox({
+          hideBarsDelay : 0
+        });
+        $( '.swipebox-video' ).swipebox();
 
-      $( '.swipebox' ).swipebox();
-
-    } )( jQuery );
-</script>
+        $("table").addClass("pure-table pure-table-bordered pure-table-striped");
+      })(jQuery);
+    </script>
   </body>
 </html>

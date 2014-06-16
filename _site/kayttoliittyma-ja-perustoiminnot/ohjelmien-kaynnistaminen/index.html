@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Käyttäjätunnukset ja -profiili</title>
+    <title>Ohjelmien käynnistäminen</title>
     <meta name="viewport" content="width=device-width">
     <!-- We don't want this to be found in search engines yet -->
     <meta name="robots" content="noindex, nofollow">
@@ -53,28 +53,42 @@
   <li class="divider">&gt;</li>
   
 
-  <li class="active">Käyttäjätunnukset ja -profiili</li>
+  <li class="active">Ohjelmien käynnistäminen</li>
 
 </ul>
           <div class="main-area pure-u-1">
-  <h2 class="main-title">Käyttäjätunnukset ja -profiili</h2>
-  <p class="meta">28.10.2013</p>
+  <h2 class="main-title">Ohjelmien käynnistäminen</h2>
+  <p class="meta">11.06.2014</p>
 
   <div class="post pure-u-1">
-  <h3>Käyttäjätunnukset</h3>
+  <h2>Käynnistysvalikon yleisesittely</h2>
 
-<p>Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätunnus ja salasana, joilla käyttäjä pääsee omalle työpöydälle ja tiedostoihin. Järjestelmä kysyy käyttäjätunnusta aina käynnistyksen yhteydessä. Turvallisuussyistä omaa salasanaa ei tule koskaan kertoa kenellekään toiselle.</p>
+<p>Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Käynnistysvalikon kautta. Valikko löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.</p>
+
+<p>Valikosta voi:</p>
+
+<ul>
+<li>käynnistää ohjelmia</li>
+<li>etsiä ohjelmia</li>
+<li>vaihtaa salasanan</li>
+<li>muokata omia tietoja</li>
+<li>tarkastella koulun sisäisiä viestejä</li>
+<li>tarkastaa Opinsys-järjestelmän version</li>
+</ul>
+
+<p>[KUVA]</p>
 
 <hr>
 
-<h3>Salasanan vaihto</h3>
+<h2>Ohjelmien käynnistäminen</h2>
 
-<p>Jokaisella käyttäjällä on mahdollisuus vaihtaa oma salasanansa. Ensisijainen tapa on avata salasanan vaihtolomake Menu &gt; Salasana ja täyttää avautuva lomake.
-<pre>Menu -&gt; Salasana</pre></p>
+<p>Ohjelmat on jaoteltu Käynnistysvalikossa kategorioihin. Klikkaamalla kategoria-kansiota kyseisen kategorian ohjelmat tulevat näkyviin ja ne käynnistyvät klikkaamalla kuvaketta. [KUVA]</p>
 
-<p>Ohessa ohjevideo:</p>
+<hr>
 
-<iframe class="video" width="560" height="315" src="//www.youtube.com/embed/c0BJZy7sXlA" frameborder="0" allowfullscreen></iframe>
+<h2>Haku-toiminto</h2>
+
+<p>Käynnistysvalikko auttaa löytämään ohjelmia kätevän Haku-työkalun avulla. Riittää, että etsittävän ohjelman nimestä kirjoittaa osan, ja hakutulokset tulevat näkyviin automaattisesti. [KUVA]</p>
 
   </div>
 </div>
@@ -84,9 +98,11 @@
   
     <li><span>ohjeet</span></li>
   
-    <li><span>käyttäjätunnus</span></li>
+    <li><span>käynnistysvalikko</span></li>
   
-    <li><span>profiili</span></li>
+    <li><span>sovelluskäynnistin</span></li>
+  
+    <li><span>menu</span></li>
   
   </ul>
 </section>
@@ -142,11 +158,14 @@
       });
     </script>
     <script type="text/javascript">
-    ;( function( $ ) {
+      !(function($) {
+        $( '.swipebox' ).swipebox({
+          hideBarsDelay : 0
+        });
+        $( '.swipebox-video' ).swipebox();
 
-      $( '.swipebox' ).swipebox();
-
-    } )( jQuery );
-</script>
+        $("table").addClass("pure-table pure-table-bordered pure-table-striped");
+      })(jQuery);
+    </script>
   </body>
 </html>
