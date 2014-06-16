@@ -1,5 +1,7 @@
 name: Opinsys ohjesivusto
 markdown: redcarpet
+redcarpet:
+  extensions: ["tables"]
 highlighter: pygments
 permalink: /:categories/:title
 baseurl: /opinsys-documentation
