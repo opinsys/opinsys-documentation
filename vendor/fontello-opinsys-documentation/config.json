@@ -7,6 +7,12 @@
   "ascent": 850,
   "glyphs": [
     {
+      "uid": "872d9516df93eb6b776cc4d94bd97dac",
+      "css": "video",
+      "code": 59404,
+      "src": "fontawesome"
+    },
+    {
       "uid": "17ebadd1e3f274ff0205601eef7b9cc4",
       "css": "help-circled",
       "code": 59393,
@@ -65,6 +71,18 @@
       "css": "youtube",
       "code": 59399,
       "src": "fontawesome"
+    },
+    {
+      "uid": "47a1f80457068fbeab69fdb83d7d0817",
+      "css": "youtube-play",
+      "code": 59405,
+      "src": "fontawesome"
+    },
+    {
+      "uid": "7222571caa5c15f83dcfd447c58d68d9",
+      "css": "search",
+      "code": 59403,
+      "src": "entypo"
     },
     {
       "uid": "bc64550dd022ce21604f97309b346cea",
