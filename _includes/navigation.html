@@ -1,7 +1,7 @@
 <section class="site-navigation pure-u">
   <nav class="pure-menu pure-menu-open pure-menu-horizontal main-navigation">
     <ul>
-    {% assign sorted_pages = site.pages | sort:"name" %}
+    {% assign sorted_pages = site.pages | sort:"title" %}
       {% for pages in sorted_pages %}
         {% if pages.title != "Etusivu" %}
           {% if pages.title %}
