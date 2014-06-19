@@ -14,7 +14,7 @@
     <!--  Swipebox CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/opinsys-documentation/styles/master.css">
+    <link rel="stylesheet" href="/opinsys-documentation/assets/styles/master.css">
   </head>
   <body>
     <div class="site">
@@ -22,7 +22,7 @@
         <div class="wrapper pure-g">
           <h1 class="title pure-u-1-2">
             <a href="/opinsys-documentation/" title="Opinsys ohjesivusto">
-              <img class="logo" src="/opinsys-documentation/images/opinsys_logo.png">
+              <img class="logo" src="/opinsys-documentation/assets/images/opinsys_logo.png">
             </a>
             <a href="/opinsys-documentation/" title="Opinsys ohjesivusto">ohjeet.opinsys.fi</a>
           </h1>
@@ -73,9 +73,16 @@
 
 <h2>Jaetut kansiot</h2>
 
-<p>Tekstiä</p>
+<p>Yhteisistä kansioista löytyy neljä kansiota: Kaikki, Opettajat, Materiaali ja Ohjelmat.</p>
 
-<p><a href="/opinsys-documentation/assets/tiedostoselain.png" class="swipebox" title="Tiedostoselain"><img src="/opinsys-documentation/assets/tiedostoselain.png" alt="Tiedostoselain"></a></p>
+<ul>
+<li>Kaikki-kansio: kaikki käyttäjät voivat avata, lisätä, muokata ja poistaa tiedostoja.</li>
+<li>Opettajat-kansio: opettajat voivat avata, lisätä, muokata ja poistaa tiedostoja.</li>
+<li>Materiaali-kansio: kaikki voivat avata tiedostoja, sen lisäksi opettajat voivat lisätä, muokata ja poistaa tiedostoja.</li>
+<li>Ohjelmat kansio: sisällöstä ja muokkaamisesta vastaa Opinsys.</li>
+</ul>
+
+<p>[KUVA]</p>
 
   </div>
 </div>
@@ -130,7 +137,7 @@
         {{#entries}}
           <article class="search-result">
             <h3>
-              {{#date}}<small><time datetime="{{pubdate}}" pubdate>{{ displaydate }}</time></small>{{/date}}
+              {{#date}}<small><time datetime="{{pubdate}}" pubdate> {{ displaydate }} – </time></small>{{/date}}
               
               <a href="/opinsys-documentation{{url}}">{{title}}</a>
             </h3>
@@ -141,10 +148,10 @@
       <script type="text/javascript">
       $(function() {
         $('#search-query').lunrSearch({
-          indexUrl: '/opinsys-documentation/search.json',             // URL of the `search.json` index data for your site
-          results:  '#search-results',          // jQuery selector for the search results container
-          entries:  '.entries',                 // jQuery selector for the element to contain the results list, must be a child of the results element above.
-          template: '#search-results-template'  // jQuery selector for the Mustache.js template
+          indexUrl: '/opinsys-documentation/search.json', // URL of the `search.json` index data for your site
+          results:  '#search-results',                // jQuery selector for the search results container
+          entries:  '.entries',                       // jQuery selector for the element to contain the results list, must be a child of the results element above.
+          template: '#search-results-template'        // jQuery selector for the Mustache.js template
         });
       });
     </script>
@@ -156,6 +163,7 @@
         $( '.swipebox-video' ).swipebox();
 
         $("table").addClass("pure-table pure-table-bordered pure-table-striped");
+
       })(jQuery);
     </script>
   </body>
