@@ -1,0 +1,38 @@
+.post
+  img
+    max-width 500px
+    width 100%
+  p
+    font-size 85%
+  pre
+    border 1px solid #ddd
+    background-color rgb(240, 240, 240)
+    font-family monospace
+    font-size 90%
+    display table
+    padding 2%
+
+  code
+    border 1px solid #ddd
+    background-color #eef
+    padding 0 .2em
+
+.post ul, .post ol
+  margin-left 1.35em
+
+.post-categories
+  margin 2% 0 0
+  h3
+    margin 0
+  ul
+    padding 0
+  li
+    list-style none
+    display inline-block
+    &:last-child
+      span:after
+        content ""
+    span
+      font-size 90%
+      &:after
+        content ", "
