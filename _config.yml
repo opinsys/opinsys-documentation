@@ -2,6 +2,7 @@ name: Opinsys ohjesivusto
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
+exclude: [node_modules, assets/styles/styl]
 highlighter: pygments
 permalink: /:categories/:title
 baseurl: /opinsys-documentation
@@ -16,4 +17,4 @@ variables:
   youtube_username: opinsys
 stylus:
   compress: false
-  path: ./styles
+  path: ./assets/styles
