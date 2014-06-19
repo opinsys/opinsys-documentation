@@ -8,12 +8,17 @@ tags: ohjeet ääniasetukset
 ---
 
 ## Äänenvoimakkuus
-Tekstiä...
+
+Äänenvoimakkuuden säätö löytyy klikkaamalla kuvaketta alapalkin oikeasta reunasta, kellon vierestä. [KUVA]
+Valikosta pääsee myös tarvittaessa tarkempiin ääniasetuksiin.
+
 
 ## Äänentoisto
-Tekstiä...
+
+Äänentoistoon tarkoitetut ohjelmat löytyvät käynnistysvalikosta __Menu > Ääni ja video__.
 
 ## Äänen tallennus
-Tekstiä
 
-<a href="{{ site.baseurl }}/assets/aaniasetukset.jpg" class="swipebox" title="Ääniasetukset"><img src="{{ site.baseurl }}/assets/aaniasetukset-pikku.jpg" alt="Ääniasetukset"></a>
+Äänen tallennukseen soveltuvat ohjelmat löytyvät käynnistysvalikosta __Menu > Ääni ja video__. Ääniasetuksista Sisääntulo-välilehdeltä kannattaa tarkistaaa Äänitystaso ja muuttaa sitä tarvittaessa Äänitysvoimakkuus-säätimellä.
+
+[KUVA]

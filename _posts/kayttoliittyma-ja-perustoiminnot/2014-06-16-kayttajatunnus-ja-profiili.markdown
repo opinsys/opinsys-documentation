@@ -12,9 +12,20 @@ Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätu
 ---
 
 ## Salasanan vaihto
-Jokaisella käyttäjällä on mahdollisuus vaihtaa oma salasanansa. Ensisijainen tapa on avata salasanan vaihtolomake Menu > Salasana ja täyttää avautuva lomake.
-<pre>Menu -> Salasana</pre>
+Jokaisella käyttäjällä on mahdollisuus vaihtaa oma salasanansa. Ensisijainen tapa on avata salasanan vaihtolomake __Menu > Salasana__ ja täyttää avautuva lomake.
 
-Ohessa ohjevideo:
+### <i class="icon-video"></i> <a class="swipebox-video" href="http://www.youtube.com/watch?v=c0BJZy7sXlA">Salasanan vaihto-ohjevideo</a>
 
-### <a class="swipebox-video" href="http://www.youtube.com/watch?v=c0BJZy7sXlA">Salasanan vaihto</a>
+Lisäksi koulukäytössä kaikilla opettajilla on mahdollisuus vaihtaa oppilaiden salasanoja. Tämä tapahtuu valitsemalla __Menu > Salasana__ ja klikkaamalla “Vaihda toisen käyttäjän salasana”-välilehteä. [KUVA]
+
+Voit myös pyytää koululla toimivan Opinsys-järjestelmän ylläpitäjän vaihtamaan salasanasi tai soittaa Opinsys-tukinumeroon.
+
+---
+
+## Profiilin tietojen muokkaus
+Jokaisella käyttäjällä on mahdollisuus muokata omia profiilitietojaan. Muokkaus onnistuu klikkaamalla __Menu > Oma nimi__, jonka jälkeen avautuu kirjautumisruutu, johon syötetään oma käyttäjätunnus ja salasana. Kirjautumisen jälkeen avautuu Profiilin muokkaus-sivu. [KUVA]
+
+---
+
+## Järjestelmäasetukset
+Jokainen käyttäjä voi muokata tiettyjä asetuksia, jotka pysyvät käyttäjäprofiilissa riippumatta siitä, mille koneelle kirjautuu. Tällaisia asetuksia ovat  : Ulkoasu, Näytöt ja Ääni. + X,Y,Z [KUVAT]

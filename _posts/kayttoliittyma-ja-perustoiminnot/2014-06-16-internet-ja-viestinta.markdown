@@ -8,12 +8,16 @@ tags: ohjeet internet viestintä
 ---
 
 ## Selaimet
-Tekstiä...
+Opinsys-järjestelmästä löytyy esiasennettuna Firefox- ja Chromium-selaimet.
 
-
-[KUVA]
+* [Lisätietoja Firefox](https://support.mozilla.org/products/firefox)
+* [Lisätietoja Chromium](https://support.google.com/chrome/)
 
 ---
 
 ## Sähköposti
-Tekstiä...
+
+Opinsys-järjestelmästä löytyy esiasennettuna Thunderbird- ja Evolution -sähköpostisovellukset.
+
+* [Lisätietoja Thunderbird](https://support.mozilla.org/products/thunderbird)
+* [Lisätietoja Evolution](https://help.gnome.org/users/evolution/stable/)
