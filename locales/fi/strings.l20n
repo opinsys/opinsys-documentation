@@ -1,0 +1,78 @@
+<name {
+  *nominative: "Opinsys",
+  genitive: "Opinsysin",
+  dative: "Opinsysille"
+}>
+
+<position() { @screen.width.px < 1140 ?
+             "default" : "right" }>
+
+<step4[position()] {
+  default: """
+    4. Start localizing a resource file
+    as you see below.
+  """,
+  right: """
+    4. Start localizing a resource file
+    as you see on the right.
+  """
+}>
+
+/* root index.html */
+
+<mainTitle "{{ name.genitive }} järjestelmän käyttöopas">
+
+<mainText "Ohjeet Opinsysin järjestelmän käyttöön...">
+
+<allHelpDocuments "Kaikki ohjeet:">
+
+/* end of root index.html */
+
+/* _includes/breadcrumb.html */
+
+<breadcrumbFrontPage "Etusivu">
+
+/* end of _includes/breadcrumb.html */
+
+/* _includes/search.html */
+
+<searchInput """
+  <input placeholder="Etsi">
+""">
+
+/* end of _includes/search.html */
+
+/* _posts */
+
+/* Ohjelmien käynnistäminen */
+<startProgramOverviewTitle "Käynnistysvalikon yleisesittely">
+<startProgramOverviewText """
+  Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Käynnistysvalikon kautta. Valikko löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.
+""">
+
+<startProgramMenuListTitle "Valikosta voi:">
+<startProgramMenuList """
+  <li>käynnistää ohjelmia</li>
+  <li>etsiä ohjelmia</li>
+  <li>vaihtaa salasanan</li>
+  <li>muokata omia tietoja</li>
+  <li>tarkastella koulun sisäisiä viestejä</li>
+  <li>{{name.nomitative}}-järjestelmän version</li>
+""">
+
+<startProgramMenuList1 "käynnistää ohjelmia">
+<startProgramMenuList2 "etsiä ohjelmia">
+<startProgramMenuList3 "vaihtaa salasanan">
+<startProgramMenuList4 "muokata omia tietoja">
+<startProgramMenuList5 "tarkastella koulun sisäisiä viestejä">
+<startProgramMenuList6 "{{name.nomitative}}-järjestelmän version">
+
+<startProgramTitle "Ohjelmien käynnistäminen">
+<startProgramText "Ohjelmat on jaoteltu Käynnistysvalikossa kategorioihin. Klikkaamalla kategoria-kansiota kyseisen kategorian ohjelmat tulevat näkyviin ja ne käynnistyvät klikkaamalla kuvaketta.">
+
+<startProgramSearchTitle "Haku-toiminto">
+<startProgramSearchText "Käynnistysvalikko auttaa löytämään ohjelmia kätevän Haku-työkalun avulla. Riittää, että etsittävän ohjelman nimestä kirjoittaa osan, ja hakutulokset tulevat näkyviin automaattisesti.">
+
+/* end of Ohjelmien käynnistäminen */
+
+/* end of _posts */
