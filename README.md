@@ -22,3 +22,4 @@ git subtree push --prefix _site origin gh-pages
 ### Uses
 * [jekyl-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search)
 * [swipebox](https://github.com/brutaldesign/swipebox)
+* [l20n](http://l20n.org/)
