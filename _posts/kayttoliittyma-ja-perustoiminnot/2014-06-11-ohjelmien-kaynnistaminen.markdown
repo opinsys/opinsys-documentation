@@ -7,27 +7,34 @@ parent_page_title: Käyttöliittymä ja perustoiminnot
 tags: ohjeet käynnistysvalikko sovelluskäynnistin menu
 ---
 
-## Käynnistysvalikon yleisesittely
-Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Käynnistysvalikon kautta. Valikko löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.
+<h2 data-l10n-id="startProgramOverviewTitle"></h2>
+<p data-l10n-id="startProgramOverviewText"></p>
 
-Valikosta voi:
+<p data-l10n-id="startProgramMenuListTitle"></p>
 
-* käynnistää ohjelmia
-* etsiä ohjelmia
-* vaihtaa salasanan
-* muokata omia tietoja
-* tarkastella koulun sisäisiä viestejä
-* tarkastaa Opinsys-järjestelmän version
+<ul data-l10n-id="startProgramMenuList">
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+  <li></li>
+</ul>
+
 
 [KUVA]
 
 
 ---
 
-## Ohjelmien käynnistäminen
-Ohjelmat on jaoteltu Käynnistysvalikossa kategorioihin. Klikkaamalla kategoria-kansiota kyseisen kategorian ohjelmat tulevat näkyviin ja ne käynnistyvät klikkaamalla kuvaketta. [KUVA]
+<h2 data-l10n-id="startProgramTitle"></h2>
+<p data-l10n-id="startProgramText"></p>
+
+[KUVA]
 
 ---
 
-## Haku-toiminto
-Käynnistysvalikko auttaa löytämään ohjelmia kätevän Haku-työkalun avulla. Riittää, että etsittävän ohjelman nimestä kirjoittaa osan, ja hakutulokset tulevat näkyviin automaattisesti. [KUVA]
+<h2 data-l10n-id="startProgramSearchTitle"></h2>
+<p data-l10n-id="startProgramSearchText"></p>
+
+[KUVA]
