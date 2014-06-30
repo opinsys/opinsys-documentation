@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/assets/styles/master.css">
+
+    <script src="/opinsys-documentation/vendor/l20n/l20n.min.js"></script>
+    <link rel="localization" href="/opinsys-documentation/vendor/l20n/manifest.json">
   </head>
   <body>
     <div class="site">
@@ -29,7 +32,9 @@
             <div class="search-wrapper pure-u-1-2">
   <div id="search">
     <form action="/search" method="get" class="pure-form">
-      <input type="text" id="search-query" name="q" placeholder="Etsi" autocomplete="off">
+      <p data-l10n-id="searchInput">
+        <input type="text" id="search-query" name="q" autocomplete="off">
+      </p>
     </form>
   </div>
   <section id="search-results" style="display: none;" class="search-results">
@@ -47,7 +52,7 @@
   
 
   
-  <li><a href="/opinsys-documentation/">Etusivu</a></li>
+  <li><a href="/opinsys-documentation/"><span data-l10n-id="breadcrumbFrontPage"></span></a></li>
   <li class="divider">&gt;</li>
   <li><a href="/opinsys-documentation/laitteisto/index.html">Laitteisto</a></li>
   <li class="divider">&gt;</li>
@@ -60,7 +65,7 @@
   <h2 class="main-title">Päätelaitteet</h2>
   <p class="meta">28.10.2013</p>
 
-  <div class="post pure-u-1">
+  <div class="post pure-u-1 pure-g">
   <h3>Yleistä</h3>
 
 <p>Opinsys-järjestelmässä voi olla käyttäjän näkökulmasta karkeasti jaettuna kahden tyyppisiä päätelaitteita, kiinteästi asennettuja ja langattomia.</p>
@@ -108,18 +113,23 @@
 
 <h3>Kevytpääte</h3>
 
-<p>Kevytpäätelaitteet ovat tyypillisesti vanhempia (noin 5 -12 vuotta vanhoja) tai muuten suorituskyvyltään rajoittuneita tietokoneita. Teknisesti kevytpäätteenä toimivan tietokoneen kaikki tehtävät tapahtuvat sille omistetulla palvelintietokoneella. Näin kyseisten laitteiden elinikä pitenee ja niitä voidaan käyttää työskentelyyn pidempään. Pidemmästä elinkaaresta saadaan hyötynä esimerkiksi pienempi ekologinen kuorma.
-Kevytpäätelaitteelle on ominaista sovellusten nopea käynnistyminen, mutta toiminnallisesti rajoittunut käyttö. Tällä tarkoitetaan sitä, että koska kaikki tiedon käsittely tapahtuu muualla kuin kyseisellä laitteella, on käytettävien sovellusten kirjo pienempi. Kevytpäätteillä ei onnistu esimerkiksi kokoruudun videon katsominen tai erikoisempien usb-lisälaitteiden kuten kameroiden, älytaulujen, skannerien yms. käyttäminen. Parhaiten kevytpäätelaitteet sopivat tekstin tuottamiseen ja tiedonhakuun.</p>
+<p>Kevytpäätelaitteet ovat tyypillisesti vanhempia (noin 5 -12 vuotta vanhoja) tai muuten suorituskyvyltään rajoittuneita tietokoneita. Teknisesti kevytpäätteenä toimivan tietokoneen kaikki tehtävät tapahtuvat sille omistetulla palvelintietokoneella. Näin kyseisten laitteiden elinikä pitenee ja niitä voidaan käyttää työskentelyyn pidempään. Pidemmästä elinkaaresta saadaan hyötynä esimerkiksi pienempi ekologinen kuorma.</p>
+
+<p>Kevytpäätelaitteelle on ominaista sovellusten nopea käynnistyminen, mutta toiminnallisesti rajoittunut käyttö. Tällä tarkoitetaan sitä, että koska kaikki tiedon käsittely tapahtuu muualla kuin kyseisellä laitteella, on käytettävien sovellusten kirjo pienempi. Kevytpäätteillä ei onnistu esimerkiksi kokoruudun videon katsominen tai erikoisempien usb-lisälaitteiden kuten kameroiden, älytaulujen, skannerien yms. käyttäminen. Parhaiten kevytpäätelaitteet sopivat tekstin tuottamiseen ja tiedonhakuun.</p>
 
 <hr>
 
 <h3>Tehopääte/VerkkoPC</h3>
 
-<p>Tehopääte muistuttaa toiminnaltaan pitkälti</p>
+<p>Tehopäätteet ovat tyypillisesti uudempia ja tehokkaampia laitteita. Tehopääte vastaa toiminnaltaan ja ominaisuuksiltaa pitkälti normaalia tietokonetyöpistettä. Poikkeuksena on käytännössä se että laite käynnistyy koulun lähiverkosta ja laitteelle itselleen ei ole asennettuna mitään paikallisesti.</p>
+
+<p>Tehopäätteellä voidaan käyttää kaikkia tuettuja lisälaitteita (älytaulut, skannerit, paikalliset tulostimet jne.) sekä tehdä paljon suorituskykyä vaativia tehtäviä kuten katsoa ja muokata videoita, 3d-mallinnusta jne. Käytännössä kaikki opettajatyöpisteet ovat tehopäätteitä.</p>
 
 <h3>Kannettava</h3>
 
-<h3>Tuetut laitteet</h3>
+<p>Kannettavat tietokoneet ovat nimensä mukaisesti itsenäisesti toimivia laitteita, joihin Opinsys-järjestelmä on asennettu itse laitteeseen. Muista laitteista poiketen käyttäjän tiedostot sijaitsevat ensisijaisesti kannettavassa tietokoneessa. Käyttäjä voi halutessaan avata ja tallentaa tiedostoja myös koulun palvelimelta ollessaan koulun verkossa.</p>
+
+<p>Kannettavat tietokoneet voivat päivittyä kahdella tavalla. Automaattisesti internetyhteyden kautta, kun uusi versio on saatavilla tai käynnistämällä laite pakotetusti verkkokortin kautta palvelimelta.</p>
 
   </div>
 </div>
@@ -139,6 +149,7 @@ Kevytpäätelaitteelle on ominaista sovellusten nopea käynnistyminen, mutta toi
   
   </ul>
 </section>
+
         </div>
         <div class="footer pure-u-1">
   <div class="contact">
@@ -195,7 +206,9 @@ Kevytpäätelaitteelle on ominaista sovellusten nopea käynnistyminen, mutta toi
         $( '.swipebox' ).swipebox({
           hideBarsDelay : 0
         });
-        $( '.swipebox-video' ).swipebox();
+        $('.swipebox-video').swipebox({
+          hideBarsDelay : 0
+          });
 
         $("table").addClass("pure-table pure-table-bordered pure-table-striped");
 

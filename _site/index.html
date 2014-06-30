@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/assets/styles/master.css">
+
+    <script src="/opinsys-documentation/vendor/l20n/l20n.min.js"></script>
+    <link rel="localization" href="/opinsys-documentation/vendor/l20n/manifest.json">
   </head>
   <body>
     <div class="site">
@@ -29,7 +32,9 @@
             <div class="search-wrapper pure-u-1-2">
   <div id="search">
     <form action="/search" method="get" class="pure-form">
-      <input type="text" id="search-query" name="q" placeholder="Etsi" autocomplete="off">
+      <p data-l10n-id="searchInput">
+        <input type="text" id="search-query" name="q" autocomplete="off">
+      </p>
     </form>
   </div>
   <section id="search-results" style="display: none;" class="search-results">
@@ -52,8 +57,8 @@
 
 </ul>
           <div class="main-area pure-u-1">
-  <h2 class="main-title">Opinsysin järjestelmän käyttöopas</h2>
-  <p>Ohjeet Opinsysin järjestelmän käyttöön...</p>
+  <h2 class="main-title" data-l10n-id="mainTitle"></h2>
+  <p data-l10n-id="mainText"></p>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum odio ligula, ac iaculis ante commodo quis. Donec eleifend posuere vulputate. Pellentesque pretium risus sodales metus feugiat, a rutrum tellus ullamcorper. Sed a dictum leo. Curabitur ut nibh sem. Vivamus viverra sodales orci malesuada sollicitudin. Mauris volutpat nisi eget turpis vestibulum euismod.</p>
 </div>
 <section class="site-navigation pure-u">
@@ -104,15 +109,11 @@
   </nav>
 </section>
 <div class="pure-u-1 all-pages">
-  <h2>Kaikki ohjeet:</h2>
+  <h2 data-l10n-id="allHelpDocuments"></h2>
   <ul class="posts pure-g">
     
       <li class="pure-u-1-2">
-        <a href="/opinsys-documentation/laitteisto/skannerit">Skannerit</a>
-      </li>
-    
-      <li class="pure-u-1-2">
-        <a href="/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/profiilin-tietojen-muokkaus">Profiilin tietojen muokkaus</a>
+        <a href="/opinsys-documentation/laitteisto/tuetut-laitteet">Tuetut laitteet</a>
       </li>
     
       <li class="pure-u-1-2">
@@ -141,18 +142,6 @@
     
       <li class="pure-u-1-2">
         <a href="/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/kayttajatunnus-ja-profiili">Käyttäjätunnukset ja -profiili</a>
-      </li>
-    
-      <li class="pure-u-1-2">
-        <a href="/opinsys-documentation/laitteisto/dokumenttikamerat">Dokumenttikamerat</a>
-      </li>
-    
-      <li class="pure-u-1-2">
-        <a href="/opinsys-documentation/laitteisto/cd-dvd-asemat">CD/DVD-asemat</a>
-      </li>
-    
-      <li class="pure-u-1-2">
-        <a href="/opinsys-documentation/laitteisto/alytaulut">Älytaulut</a>
       </li>
     
   </ul>
@@ -213,7 +202,9 @@
         $( '.swipebox' ).swipebox({
           hideBarsDelay : 0
         });
-        $( '.swipebox-video' ).swipebox();
+        $('.swipebox-video').swipebox({
+          hideBarsDelay : 0
+          });
 
         $("table").addClass("pure-table pure-table-bordered pure-table-striped");
 

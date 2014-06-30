@@ -1,0 +1,10 @@
+{
+  "locales": [
+    "en-US",
+    "fi"
+  ],
+  "default_locale": "en-US",
+  "resources": [
+    "../../locales/{{locale}}/strings.l20n"
+  ]
+}

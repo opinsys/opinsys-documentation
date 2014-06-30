@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/assets/styles/master.css">
+
+    <script src="/opinsys-documentation/vendor/l20n/l20n.min.js"></script>
+    <link rel="localization" href="/opinsys-documentation/vendor/l20n/manifest.json">
   </head>
   <body>
     <div class="site">
@@ -29,7 +32,9 @@
             <div class="search-wrapper pure-u-1-2">
   <div id="search">
     <form action="/search" method="get" class="pure-form">
-      <input type="text" id="search-query" name="q" placeholder="Etsi" autocomplete="off">
+      <p data-l10n-id="searchInput">
+        <input type="text" id="search-query" name="q" autocomplete="off">
+      </p>
     </form>
   </div>
   <section id="search-results" style="display: none;" class="search-results">
@@ -47,7 +52,7 @@
   
 
   
-  <li><a href="/opinsys-documentation/">Etusivu</a></li>
+  <li><a href="/opinsys-documentation/"><span data-l10n-id="breadcrumbFrontPage"></span></a></li>
   <li class="divider">&gt;</li>
   <li><a href="/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/index.html">Käyttöliittymä ja perustoiminnot</a></li>
   <li class="divider">&gt;</li>
@@ -60,29 +65,41 @@
   <h2 class="main-title">Tiedostot ja kansiot</h2>
   <p class="meta">16.06.2014</p>
 
-  <div class="post pure-u-1">
-  <h2>Kotikansio ja tiedostojen tallentaminen</h2>
+  <div class="post pure-u-1 pure-g">
+  <div class="pure-u-11-24">
+
+<h2>Kotikansio ja tiedostojen tallentaminen</h2>
 
 <p>Jokaisella käyttäjällä on oma kotikansio, joka näkyy työpöydällä. Kotikansiota käytetään omien tiedostojen tallentamiseen ja säilyttämiseen. Kotikansio näkyy samanlaisena riippumatta siitä, miltä päätteeltä kirjaudutaan. Tiedostot eivät siis koskaan ole riippuvaisia käytettävästä koneesta.</p>
 
 <p>Opinsys-kannettava toimii hieman poikkeavalla tavalla: ohje kannettavan kotikansion toiminnasta [linkki kannettavan ohjeeseen]</p>
 
-<p>[KUVA]</p>
+</div>
+
+<div class="pure-u-11-24 images">
+[KUVA]
+</div>
 
 <hr>
+
+<div class="pure-u-11-24">
 
 <h2>Jaetut kansiot</h2>
 
 <p>Yhteisistä kansioista löytyy neljä kansiota: Kaikki, Opettajat, Materiaali ja Ohjelmat.</p>
 
 <ul>
-<li>Kaikki-kansio: kaikki käyttäjät voivat avata, lisätä, muokata ja poistaa tiedostoja.</li>
-<li>Opettajat-kansio: opettajat voivat avata, lisätä, muokata ja poistaa tiedostoja.</li>
-<li>Materiaali-kansio: kaikki voivat avata tiedostoja, sen lisäksi opettajat voivat lisätä, muokata ja poistaa tiedostoja.</li>
-<li>Ohjelmat kansio: sisällöstä ja muokkaamisesta vastaa Opinsys.</li>
+  <li>Kaikki-kansio: kaikki käyttäjät voivat avata, lisätä, muokata ja poistaa tiedostoja.</li>
+  <li>Opettajat-kansio: opettajat voivat avata, lisätä, muokata ja poistaa tiedostoja.</li>
+  <li>Materiaali-kansio: kaikki voivat avata tiedostoja, sen lisäksi opettajat voivat lisätä, muokata ja poistaa tiedostoja.</li>
+  <li>Ohjelmat kansio: sisällöstä ja muokkaamisesta vastaa Opinsys.</li>
 </ul>
 
-<p>[KUVA]</p>
+</div>
+
+<div class="pure-u-11-24 images">
+[KUVA]
+</div>
 
   </div>
 </div>
@@ -104,6 +121,7 @@
   
   </ul>
 </section>
+
         </div>
         <div class="footer pure-u-1">
   <div class="contact">
@@ -160,7 +178,9 @@
         $( '.swipebox' ).swipebox({
           hideBarsDelay : 0
         });
-        $( '.swipebox-video' ).swipebox();
+        $('.swipebox-video').swipebox({
+          hideBarsDelay : 0
+          });
 
         $("table").addClass("pure-table pure-table-bordered pure-table-striped");
 
