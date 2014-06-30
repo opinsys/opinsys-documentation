@@ -162,6 +162,9 @@ ul {
 strong {
   font-weight: bold;
 }
+small {
+  font-size: 80%;
+}
 hr {
   border: 1px solid #3e3e2d;
   margin: 2% 0;
