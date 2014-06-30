@@ -9,9 +9,10 @@ Opinsys system documentation
 ```bash
   jekyll serve --watch --baseurl ''
 ```
+* and then open http://0.0.0.0:4000/
 
 ### Publish site to gh-pages
-Edit/add/remove files while local development mode. When you are done:
+* Edit/add/remove files while local development mode. When you are done:
 
 ```bash
 jekyll build
