@@ -96,6 +96,9 @@ a img {
   margin: 0;
   padding: 0;
 }
+html {
+  min-height: 100%;
+}
 body,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
@@ -515,9 +518,17 @@ img {
   font-size: 100%;
   margin: 0 0 0.5rem;
 }
+.search-wrapper i {
+  color: #191919;
+  font-size: 120%;
+  position: absolute;
+  right: 1%;
+  top: 10%;
+}
 .search-wrapper input[type=text] {
   -webkit-border-radius: 2px;
   border-radius: 2px;
+  padding-right: 2rem;
   width: 100%;
 }
 .search-wrapper input[type=text]:focus {
