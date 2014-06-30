@@ -44,36 +44,46 @@
 
 /* _posts */
 
-<startProgramOverviewTitle "Start menu overview">
-
+<startProgramOverviewTitle "Start Menu overview">
 <startProgramOverviewText """
-  Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Käynnistysvalikon kautta. Valikko löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.
+  Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Menun kautta. Menu löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.
 """>
 
-<startProgramMenuListTitle "Valikosta voi:">
+<startProgramMenuListTitle "Menusta löytyy:">
 
 <startProgramMenuList """
-  <li>käynnistää ohjelmia</li>
-  <li>etsiä ohjelmia</li>
-  <li>vaihtaa salasanan</li>
-  <li>muokata omia tietoja</li>
-  <li>tarkastella koulun sisäisiä viestejä</li>
-  <li>{{name.nomitative}}-järjestelmän version</li>
+  <li>Ohjelmat
+    <ol>
+      <li>kategoriat</li>
+      <li>haku</li>
+      <li>eniten käytetyt ohjelmat</li>
+    </ol>
+  </li>
+  <li>Profiili ja hallinta
+    <ol>
+      <li>poistu</li>
+      <li>vaihda salasana</li>
+      <li>muokkaa omia tietoja</li>
+    </ol>
+  </li>
+  <li>Tuki ja viestit</li>
 """>
 
-<startProgramMenuList1 "käynnistää ohjelmia">
-<startProgramMenuList2 "etsiä ohjelmia">
-<startProgramMenuList3 "vaihtaa salasanan">
-<startProgramMenuList4 "muokata omia tietoja">
-<startProgramMenuList5 "tarkastella koulun sisäisiä viestejä">
-<startProgramMenuList6 "{{name.nomitative}}-järjestelmän version">
-
 <startProgramTitle "Ohjelmien käynnistäminen">
-<startProgramText "Ohjelmat on jaoteltu Käynnistysvalikossa kategorioihin. Klikkaamalla kategoria-kansiota kyseisen kategorian ohjelmat tulevat näkyviin ja ne käynnistyvät klikkaamalla kuvaketta.">
+
+<startProgramText "Ohjelmat on jaoteltu Menussa kategorioihin.">
+
+<startProgramList """
+  <li>Valitse Menu</li>
+  <li>Valitse haluttu kategoria</li>
+  <li>Valitse käynnistettävä ohjelma</li>
+""">
 
 <startProgramSearchTitle "Haku-toiminto">
-<startProgramSearchText "Käynnistysvalikko auttaa löytämään ohjelmia kätevän Haku-työkalun avulla. Riittää, että etsittävän ohjelman nimestä kirjoittaa osan, ja hakutulokset tulevat näkyviin automaattisesti.">
-
+<startProgramSearchText """
+  <li>Valitse Menu</li>
+  <li>Kirjoita hakukenttään haettava asia. Hakutulokset tulevat näkyviin automaattisesti.</li>
+""">
 /* end of Ohjelmien käynnistäminen */
 
 /* end of _posts */
