@@ -1,9 +1,13 @@
 .post
+  ol
+    list-style decimal
+    margin-bottom 2rem
+    li
+      ol
+        list-style lower-alpha
   img
     max-width 500px
     width 100%
-  p
-    font-size 85%
   pre
     border 1px solid #ddd
     background-color rgb(240, 240, 240)
@@ -16,6 +20,10 @@
     border 1px solid #ddd
     background-color #eef
     padding 0 .2em
+  .images
+    padding 0 0 1rem
+    ul
+      list-style none
 
 .post ul, .post ol
   margin-left 1.35em
@@ -36,3 +44,10 @@
       font-size 90%
       &:after
         content ", "
+
+@media screen-breakpoint-two
+  .post
+    .pure-u-11-24
+      width 100%
+    .images
+      padding 1rem 0
