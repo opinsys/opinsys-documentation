@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/assets/styles/master.css">
+
+    <script src="/opinsys-documentation/vendor/l20n/l20n.min.js"></script>
+    <link rel="localization" href="/opinsys-documentation/vendor/l20n/manifest.json">
   </head>
   <body>
     <div class="site">
@@ -29,7 +32,9 @@
             <div class="search-wrapper pure-u-1-2">
   <div id="search">
     <form action="/search" method="get" class="pure-form">
-      <input type="text" id="search-query" name="q" placeholder="Etsi" autocomplete="off">
+      <p data-l10n-id="searchInput">
+        <input type="text" id="search-query" name="q" autocomplete="off">
+      </p>
     </form>
   </div>
   <section id="search-results" style="display: none;" class="search-results">
@@ -47,7 +52,7 @@
   
 
   
-  <li><a href="/opinsys-documentation/">Etusivu</a></li>
+  <li><a href="/opinsys-documentation/"><span data-l10n-id="breadcrumbFrontPage"></span></a></li>
   <li class="divider">&gt;</li>
   <li><a href="/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/index.html">Käyttöliittymä ja perustoiminnot</a></li>
   <li class="divider">&gt;</li>
@@ -60,35 +65,78 @@
   <h2 class="main-title">Ohjelmien käynnistäminen</h2>
   <p class="meta">11.06.2014</p>
 
-  <div class="post pure-u-1">
-  <h2>Käynnistysvalikon yleisesittely</h2>
+  <div class="post pure-u-1 pure-g">
+  <h2 data-l10n-id="startProgramOverviewTitle"></h2>
 
-<p>Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Käynnistysvalikon kautta. Valikko löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.</p>
+<p data-l10n-id="startProgramOverviewText"></p>
 
-<p>Valikosta voi:</p>
+<div class="pure-u-11-24">
+<p data-l10n-id="startProgramMenuListTitle"></p>
 
+<ol data-l10n-id="startProgramMenuList">
+  <li>
+    <ol>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+  </li>
+  <li></li>
+</ol>
+
+</div>
+
+<div class="pure-u-11-24 images">
+[KUVA]
+</div>
+
+<hr>
+
+<div class="pure-u-11-24">
+  <h2 data-l10n-id="startProgramTitle"></h2>
+  <p data-l10n-id="startProgramText"></p>
+  <ol data-l10n-id="startProgramList">
+    <li></li>
+    <li></li>
+    <li></li>
+  </ol>
+</div>
+
+<div class="pure-u-11-24 images">
 <ul>
-<li>käynnistää ohjelmia</li>
-<li>etsiä ohjelmia</li>
-<li>vaihtaa salasanan</li>
-<li>muokata omia tietoja</li>
-<li>tarkastella koulun sisäisiä viestejä</li>
-<li>tarkastaa Opinsys-järjestelmän version</li>
+  <li>
+    <a href="/opinsys-documentation/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox"><img src="/opinsys-documentation/assets/images/valitse-menu-small.png" alt="1. Valitse Menu"></a>
+  </li>
 </ul>
-
-<p>[KUVA]</p>
-
-<hr>
-
-<h2>Ohjelmien käynnistäminen</h2>
-
-<p>Ohjelmat on jaoteltu Käynnistysvalikossa kategorioihin. Klikkaamalla kategoria-kansiota kyseisen kategorian ohjelmat tulevat näkyviin ja ne käynnistyvät klikkaamalla kuvaketta. [KUVA]</p>
+</div>
 
 <hr>
 
-<h2>Haku-toiminto</h2>
+<div class="pure-u-11-24">
+  <h2 data-l10n-id="startProgramSearchTitle"></h2>
+  <ol data-l10n-id="startProgramSearchText">
+    <li></li>
+    <li></li>
+  </ol>
+</div>
 
-<p>Käynnistysvalikko auttaa löytämään ohjelmia kätevän Haku-työkalun avulla. Riittää, että etsittävän ohjelman nimestä kirjoittaa osan, ja hakutulokset tulevat näkyviin automaattisesti. [KUVA]</p>
+<div class="pure-u-11-24 images">
+<ul>
+  <li>
+    <a href="/opinsys-documentation/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox"><img src="/opinsys-documentation/assets/images/valitse-menu-small.png" alt="1. Valitse Menu"></a>
+  </li>
+  <li>
+    <a href="/opinsys-documentation/assets/images/menu-haku.png" title="2. Kirjoita hakukenttään haettava asia. Hakutulokset tulevat näkyviin automaattisesti." class="swipebox"><img src="/opinsys-documentation/assets/images/menu-haku-small.png" alt="2. Kirjoita hakukenttään haettava asia. Hakutulokset tulevat näkyviin automaattisesti."></a>
+  </li>
+</ul>
+</div>
 
   </div>
 </div>
@@ -100,12 +148,11 @@
   
     <li><span>käynnistysvalikko</span></li>
   
-    <li><span>sovelluskäynnistin</span></li>
-  
     <li><span>menu</span></li>
   
   </ul>
 </section>
+
         </div>
         <div class="footer pure-u-1">
   <div class="contact">
@@ -162,7 +209,9 @@
         $( '.swipebox' ).swipebox({
           hideBarsDelay : 0
         });
-        $( '.swipebox-video' ).swipebox();
+        $('.swipebox-video').swipebox({
+          hideBarsDelay : 0
+          });
 
         $("table").addClass("pure-table pure-table-bordered pure-table-striped");
 

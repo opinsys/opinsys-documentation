@@ -1,0 +1,89 @@
+<name {
+  *nominative: "Opinsys",
+  genitive: "Opinsys",
+  dative: "Opinsys"
+}>
+
+<position() { @screen.width.px < 1140 ?
+             "default" : "right" }>
+
+<step4[position()] {
+  default: """
+    4. Start localizing a resource file
+    as you see below.
+  """,
+  right: """
+    4. Start localizing a resource file
+    as you see on the right.
+  """
+}>
+
+/* root index.html */
+
+<mainTitle "{{ name }} system guide">
+
+<mainText "Ohjeet Opinsysin järjestelmän käyttöön...">
+
+<allHelpDocuments "All documents:">
+
+/* end of root index.html */
+
+/* _includes/breadcrumb.html */
+
+<breadcrumbFrontPage "Home">
+
+/* end of _includes/breadcrumb.html */
+
+/* _includes/search.html */
+
+<searchInput """
+  <input placeholder="Search">
+""">
+
+/* end of _includes/search.html */
+
+/* _posts */
+
+<startProgramOverviewTitle "Start Menu overview">
+<startProgramOverviewText """
+  Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Menun kautta. Menu löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.
+""">
+
+<startProgramMenuListTitle "Menusta löytyy:">
+
+<startProgramMenuList """
+  <li>Ohjelmat
+    <ol>
+      <li>kategoriat</li>
+      <li>haku</li>
+      <li>eniten käytetyt ohjelmat</li>
+    </ol>
+  </li>
+  <li>Profiili ja hallinta
+    <ol>
+      <li>poistu</li>
+      <li>vaihda salasana</li>
+      <li>muokkaa omia tietoja</li>
+    </ol>
+  </li>
+  <li>Tuki ja viestit</li>
+""">
+
+<startProgramTitle "Ohjelmien käynnistäminen">
+
+<startProgramText "Ohjelmat on jaoteltu Menussa kategorioihin.">
+
+<startProgramList """
+  <li>Valitse Menu</li>
+  <li>Valitse haluttu kategoria</li>
+  <li>Valitse käynnistettävä ohjelma</li>
+""">
+
+<startProgramSearchTitle "Haku-toiminto">
+<startProgramSearchText """
+  <li>Valitse Menu</li>
+  <li>Kirjoita hakukenttään haettava asia. Hakutulokset tulevat näkyviin automaattisesti.</li>
+""">
+/* end of Ohjelmien käynnistäminen */
+
+/* end of _posts */

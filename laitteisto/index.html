@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/assets/styles/master.css">
+
+    <script src="/opinsys-documentation/vendor/l20n/l20n.min.js"></script>
+    <link rel="localization" href="/opinsys-documentation/vendor/l20n/manifest.json">
   </head>
   <body>
     <div class="site">
@@ -29,7 +32,9 @@
             <div class="search-wrapper pure-u-1-2">
   <div id="search">
     <form action="/search" method="get" class="pure-form">
-      <input type="text" id="search-query" name="q" placeholder="Etsi" autocomplete="off">
+      <p data-l10n-id="searchInput">
+        <input type="text" id="search-query" name="q" autocomplete="off">
+      </p>
     </form>
   </div>
   <section id="search-results" style="display: none;" class="search-results">
@@ -61,15 +66,9 @@
     <h3>Ohjeet:</h3>
     <ul class="posts">
       
-        <li><a href="/opinsys-documentation/laitteisto/skannerit">Skannerit</a></li>
+        <li><a href="/opinsys-documentation/laitteisto/tuetut-laitteet">Tuetut laitteet</a></li>
       
         <li><a href="/opinsys-documentation/laitteisto/paatelaitteet">Päätelaitteet</a></li>
-      
-        <li><a href="/opinsys-documentation/laitteisto/dokumenttikamerat">Dokumenttikamerat</a></li>
-      
-        <li><a href="/opinsys-documentation/laitteisto/cd-dvd-asemat">CD/DVD-asemat</a></li>
-      
-        <li><a href="/opinsys-documentation/laitteisto/alytaulut">Älytaulut</a></li>
       
     </ul>
   </div>
@@ -130,7 +129,9 @@
         $( '.swipebox' ).swipebox({
           hideBarsDelay : 0
         });
-        $( '.swipebox-video' ).swipebox();
+        $('.swipebox-video').swipebox({
+          hideBarsDelay : 0
+          });
 
         $("table").addClass("pure-table pure-table-bordered pure-table-striped");
 

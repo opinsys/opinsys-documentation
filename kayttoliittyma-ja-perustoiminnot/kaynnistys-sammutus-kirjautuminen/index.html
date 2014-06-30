@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="/opinsys-documentation/vendor/swipebox/css/swipebox.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/opinsys-documentation/assets/styles/master.css">
+
+    <script src="/opinsys-documentation/vendor/l20n/l20n.min.js"></script>
+    <link rel="localization" href="/opinsys-documentation/vendor/l20n/manifest.json">
   </head>
   <body>
     <div class="site">
@@ -29,7 +32,9 @@
             <div class="search-wrapper pure-u-1-2">
   <div id="search">
     <form action="/search" method="get" class="pure-form">
-      <input type="text" id="search-query" name="q" placeholder="Etsi" autocomplete="off">
+      <p data-l10n-id="searchInput">
+        <input type="text" id="search-query" name="q" autocomplete="off">
+      </p>
     </form>
   </div>
   <section id="search-results" style="display: none;" class="search-results">
@@ -47,7 +52,7 @@
   
 
   
-  <li><a href="/opinsys-documentation/">Etusivu</a></li>
+  <li><a href="/opinsys-documentation/"><span data-l10n-id="breadcrumbFrontPage"></span></a></li>
   <li class="divider">&gt;</li>
   <li><a href="/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/index.html">Käyttöliittymä ja perustoiminnot</a></li>
   <li class="divider">&gt;</li>
@@ -60,22 +65,102 @@
   <h2 class="main-title">Käynnistys, sammutus ja kirjautuminen</h2>
   <p class="meta">16.06.2014</p>
 
-  <div class="post pure-u-1">
-  <h2>Käynnistys</h2>
+  <div class="post pure-u-1 pure-g">
+  <div class="pure-u-11-24">
 
-<p>Pääte käynnistetään painamalla sen etupaneelissa olevasta virtapainikkeesta. [KUVA]</p>
+<h2>Käynnistys</h2>
+  <p>Käynnistä tietokone painamalla sen etupaneelissa olevaa virtapainiketta.</p>
+
+</div>
+
+<div class="pure-u-11-24 images">
+[KUVA]
+</div>
+
+<div class="pure-u-11-24">
 
 <h2>Sammutus</h2>
+<h4>Voit sammuttaa tietokoneen Menun kautta</h4>
+<ol>
+  <li>Valitse Menu</li>
+  <li>Valitse Poistu</li>
+  <li>Valitse Sammuta</li>
+</ol>
 
-<p>Pääte sammutetaan “Poistu”-valikon kautta klikkaamalla “Sammuta”-painiketta [KUVAT (Kirjautumisruutu, alapaneelin sammuta-nappi, webmenu)]</p>
+</div>
 
-<p><a href="/opinsys-documentation/assets/images/poistu-menu-yhdistetty.png" class="swipebox" title="Sammuta tietokone Käynnistysvalikon kautta"><img src="/opinsys-documentation/assets/images/poistu-menu-yhdistetty.png" alt="Sammuta tietokone Käynnistysvalikon kautta"></a>
-<a href="/opinsys-documentation/assets/images/poistu-alavalikko.png" class="swipebox" title="Sammuta tietokone alapalkin Poistu-valikon kautta"><img src="/opinsys-documentation/assets/images/poistu-alavalikko.png" alt="Sammuta tietokone alapalkin Poistu-valikon kautta"></a>
-<a href="/opinsys-documentation/assets/images/kirjautumisruutu-sammuta.png" class="swipebox" title="Sammuta tietokone kirjautumisruudussa"><img src="/opinsys-documentation/assets/images/kirjautumisruutu-sammuta.png" alt="Sammuta tietokone kirjautumisruudussa"></a></p>
+<div class="pure-u-11-24 images">
+<ul>
+  <li>
+    <a href="/opinsys-documentation/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox"><img src="/opinsys-documentation/assets/images/valitse-menu-small.png" alt="1. Valitse Menu"></a>
+  </li>
+  <li>
+    <a href="/opinsys-documentation/assets/images/menu-poistu-aktiivinen.png" class="swipebox" title="2. Valitse Poistu"><img src="/opinsys-documentation/assets/images/menu-poistu-aktiivinen-small.png" alt="2. Valitse Poistu"></a>
+  </li>
+  <li>
+  <a href="/opinsys-documentation/assets/images/menu-poistu-sammuta.png" class="swipebox" title="3. Valitse Sammuta"><img src="/opinsys-documentation/assets/images/menu-poistu-sammuta-small.png" alt="3. Valitse Sammuta"></a>
+  </li>
+</ul>
+</div>
+
+<div class="pure-u-11-24">
+  <h4>Voit sammuttaa tietokoneen alapaneelin sammuta-painikkeesta</h4>
+<ol>
+  <li>Valitse alavalikon oikean alakulman sammuta-painike</li>
+  <li>Valitse Sammuta</li>
+</ol>
+</div>
+
+<div class="pure-u-11-24 images">
+<ul>
+  <li>
+    <a href="/opinsys-documentation/assets/images/sammuta-alavalikko.png" class="swipebox" title="1. Valitse alavalikon oikean alakulman sammuta-painike"><img src="/opinsys-documentation/assets/images/sammuta-alavalikko-small.png" alt="1. Valitse alavalikon oikean alakulman sammuta-painike"></a>
+  </li>
+  <li>
+    <a href="/opinsys-documentation/assets/images/sammuta-alavalikko-auki.png" class="swipebox" title="2. Valitse Sammuta"><img src="/opinsys-documentation/assets/images/sammuta-alavalikko-auki-small.png" alt="2. Valitse Sammuta"></a>
+  </li>
+</ul>
+</div>
+
+<div class="pure-u-11-24">
+<h4>Voit sammuttaa tietokoneen kirjautumisruudussa</h4>
+<ol>
+  <li>Valitse oikean yläkulman sammuta-painike</li>
+  <li>Valitse Sammuta</li>
+</ol>
+</div>
+
+<div class="pure-u-11-24 images">
+<ul>
+  <li>
+    <a href="/opinsys-documentation/assets/images/sammuta-kirjautumisruutu-painike.png" class="swipebox" title="1. Valitse oikean yläkulman sammuta-painike"><img src="/opinsys-documentation/assets/images/sammuta-kirjautumisruutu-painike-small.png" alt="1. Valitse oikean yläkulman sammuta-painike"></a>
+  </li>
+  <li>
+    <a href="/opinsys-documentation/assets/images/sammuta-kirjautumisruutu-painike-aktiivinen.png" class="swipebox" title="2. Valitse Sammuta"><img src="/opinsys-documentation/assets/images/sammuta-kirjautumisruutu-painike-aktiivinen-small.png" alt="2. Valitse Sammuta"></a>
+  </li>
+</ul>
+</div>
+
+<div class="pure-u-11-24">
 
 <h2>Kirjautuminen</h2>
+<p>Kirjaudu tietokoneelle</p>
+<ol>
+  <li>Kirjoita Opinsys-järjestelmän käyttäjätunnuksesi ja paina Enter-painiketta</li>
+  <li>Kirjoita salasanasi ja paina Enter-painiketta</li>
+</ol>
+</div>
 
-<p>Kirjaudu päätteelle syöttämällä Opinsys-järjestelmän tunnus ja salasana kirjautumisruudussa [KUVA]</p>
+<div class="pure-u-11-24 images">
+<ul>
+  <li>
+    <a href="/opinsys-documentation/assets/images/kirjaudu-sisaan-tunnus.png" class="swipebox" title="1. Kirjoita Opinsys-järjestelmän käyttäjätunnuksesi ja paina Enter-painiketta"><img src="/opinsys-documentation/assets/images/kirjaudu-sisaan-tunnus-small.png" alt="1. Kirjoita Opinsys-järjestelmän käyttäjätunnuksesi ja paina Enter-painiketta"></a>
+  </li>
+  <li>
+    <a href="/opinsys-documentation/assets/images/kirjaudu-sisaan-salasana.png" class="swipebox" title="2. Kirjoita salasanasi ja paina Enter-painiketta"><img src="/opinsys-documentation/assets/images/kirjaudu-sisaan-salasana-small.png" alt="2. Kirjoita salasanasi ja paina Enter-painiketta"></a>
+  </li>
+</ul>
+</div>
 
   </div>
 </div>
@@ -93,6 +178,7 @@
   
   </ul>
 </section>
+
         </div>
         <div class="footer pure-u-1">
   <div class="contact">
@@ -149,7 +235,9 @@
         $( '.swipebox' ).swipebox({
           hideBarsDelay : 0
         });
-        $( '.swipebox-video' ).swipebox();
+        $('.swipebox-video').swipebox({
+          hideBarsDelay : 0
+          });
 
         $("table").addClass("pure-table pure-table-bordered pure-table-striped");
 

@@ -245,8 +245,8 @@ img {
   -moz-background-clip: padding;
   background-clip: padding-box;
   border: 5px solid rgba(237,113,19,0.5);
-  -webkit-box-shadow: 2px -2px 2px rgba(0,0,0,0.5), -2px 2px 2px rgba(0,0,0,0.5), inset 0 5px 100px rgba(65,120,107,0.2);
-  box-shadow: 2px -2px 2px rgba(0,0,0,0.5), -2px 2px 2px rgba(0,0,0,0.5), inset 0 5px 100px rgba(65,120,107,0.2);
+  -webkit-box-shadow: 2px -2px 2px rgba(0,0,0,0.5), -2px 2px 2px rgba(0,0,0,0.5), inset 0 5px 200px rgba(65,120,107,0.2);
+  box-shadow: 2px -2px 2px rgba(0,0,0,0.5), -2px 2px 2px rgba(0,0,0,0.5), inset 0 5px 200px rgba(65,120,107,0.2);
   margin: 0.75rem auto;
   max-width: 1000px;
   padding: 2rem;
@@ -255,9 +255,8 @@ img {
   padding: 0;
 }
 .main-area .main-title {
-  background-color: #855633;
-  color: #fff;
-  padding: 1rem;
+  font-size: 300%;
+  padding: 0;
 }
 .main-area h3 {
   margin-top: 1.5rem;
@@ -339,12 +338,16 @@ img {
     font-weight: 200;
   }
 }
+.post ol {
+  list-style: decimal;
+  margin-bottom: 2rem;
+}
+.post ol li ol {
+  list-style: lower-alpha;
+}
 .post img {
   max-width: 500px;
   width: 100%;
-}
-.post p {
-  font-size: 85%;
 }
 .post pre {
   border: 1px solid #ddd;
@@ -358,6 +361,12 @@ img {
   border: 1px solid #ddd;
   background-color: #eef;
   padding: 0 0.2em;
+}
+.post .images {
+  padding: 0 0 1rem;
+}
+.post .images ul {
+  list-style: none;
 }
 .post ul,
 .post ol {
@@ -384,6 +393,14 @@ img {
 }
 .post-categories li span:after {
   content: ", ";
+}
+@media screen and (max-width: 768px) {
+  .post .pure-u-11-24 {
+    width: 100%;
+  }
+  .post .images {
+    padding: 1rem 0;
+  }
 }
 .breadcrumbs {
   font-size: 80%;
@@ -473,6 +490,9 @@ img {
 .search-wrapper h3,
 .search-wrapper p {
   font-weight: 200;
+}
+.search-wrapper p {
+  margin: 0;
 }
 .search-wrapper .search-results {
   background-color: #fafafa;

@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>/opinsys-documentation/laitteisto/skannerit</loc>
-    <lastmod>2014-10-06</lastmod>
-
-  </url>
-  <url>
-    <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/profiilin-tietojen-muokkaus</loc>
-    <lastmod>2014-06-18</lastmod>
+    <loc>/opinsys-documentation/laitteisto/tuetut-laitteet</loc>
+    <lastmod>2014-06-28</lastmod>
 
   </url>
   <url>
@@ -42,21 +37,6 @@
   </url>
   <url>
     <loc>/opinsys-documentation/kayttoliittyma-ja-perustoiminnot/kayttajatunnus-ja-profiili</loc>
-    <lastmod>2013-10-28</lastmod>
-
-  </url>
-  <url>
-    <loc>/opinsys-documentation/laitteisto/dokumenttikamerat</loc>
-    <lastmod>2013-10-28</lastmod>
-
-  </url>
-  <url>
-    <loc>/opinsys-documentation/laitteisto/cd-dvd-asemat</loc>
-    <lastmod>2013-10-28</lastmod>
-
-  </url>
-  <url>
-    <loc>/opinsys-documentation/laitteisto/alytaulut</loc>
     <lastmod>2013-10-28</lastmod>
 
   </url>
