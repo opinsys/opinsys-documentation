@@ -37,6 +37,7 @@
 /* _includes/search.html */
 
 <searchInput """
+  <i class="icon-search"></i>
   <input placeholder="Etsi">
 """>
 
