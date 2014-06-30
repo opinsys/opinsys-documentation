@@ -7,11 +7,20 @@ parent_page_title: Käyttöliittymä ja perustoiminnot
 tags: ohjeet ääniasetukset
 ---
 
-## Äänenvoimakkuus
+<div class="pure-u-11-24">
+<h2>Äänenvoimakkuuden säätö</h2>
 
-Äänenvoimakkuuden säätö löytyy klikkaamalla kuvaketta alapalkin oikeasta reunasta, kellon vierestä. [KUVA]
-Valikosta pääsee myös tarvittaessa tarkempiin ääniasetuksiin.
+<ol>
+  <li>Valitse kaiutin kuvake</li>
+  <li>Säädä äänenvoimmakuutta liukusäätimestä</li>
+  <li>Vaimenna äänet valitsemalla Vaimenna</li>
+  <li>Tarkemmat ääniasetukset löydät valitsemalla Ääniasetukset</li>
+</ol>
 
+</div>
+<div class="pure-u-11-24 images">
+[KUVA]
+</div>
 
 ## Äänentoisto
 
