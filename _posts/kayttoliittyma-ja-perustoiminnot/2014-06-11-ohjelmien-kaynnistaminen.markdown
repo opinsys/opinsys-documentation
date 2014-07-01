@@ -38,7 +38,23 @@ tags:
 </div>
 
 <div class="pure-u-11-24 images">
-[KUVA]
+<ul>
+  <li>
+    <a href="{{ site.baseurl }}/assets/images/menu-esittely.png" title="1. Ohjelmat, kategoriat, haku, eniten käytetyt ohjelmat" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-esittely-small.png" alt="1. Ohjelmat, kategoriat, haku, eniten käytetyt ohjelmat">
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}/assets/images/menu-profiili-esittely.png" title="2. Profiili ja hallinta, poistu, vaihda salasana, muokkaa omia tietoja." class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-profiili-esittely-small.png" alt="2. Profiili ja hallinta, poistu, vaihda salasana, muokkaa omia tietoja.">
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}/assets/images/menu-tuki-ja-viestit.png" title="3. Tuki ja viestit." class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-tuki-ja-viestit-small.png" alt="3. Tuki ja viestit.">
+    </a>
+  </li>
+</ul>
 </div>
 
 
@@ -56,7 +72,19 @@ tags:
 <div class="pure-u-11-24 images">
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox"><img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu"></a>
+    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu">
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}/assets/images/menu-valitse-kategoria.png" title="2. Valitse haluttu kategoria" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-valitse-kategoria-small.png" alt="2. Valitse haluttu kategoria">
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}/assets/images/menu-internet-firefox.png" title="3. Valitse käynnistettävä ohjelma" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-internet-firefox-small.png" alt="3. Valitse käynnistettävä ohjelma">
+    </a>
   </li>
 </ul>
 </div>
