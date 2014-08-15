@@ -19,6 +19,7 @@ git clone git@github.com:opinsys/opinsys-documentation.git
 * Go to opinsys-documentation folder and type
 
 ```bash
+  npm install
   jekyll serve --watch --baseurl ''
 ```
 * and then open http://0.0.0.0:4000/
@@ -81,6 +82,12 @@ _posts/kayttoliittyma-ja-perustoiminnot/2014-06-11-ohjelmien-kaynnistaminen.mark
 ```
 locales/
 ```
+
+#### Site images
+* are located in assets/images
+
+### Styles (.styl)
+* are locates in assets/styles
 
 ### Publish site to gh-pages
 * Edit/add/remove files at your local development enviroment. When you are done:
