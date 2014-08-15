@@ -66,13 +66,13 @@ tags:
 
 * layout determine which basic html-structure file uses
   * layouts are in _layouts-folder
-* icon determine which icon is used at he home page
+* icon determine which icon is used at the home page
   * icons are in vendor/fontello-opinsys-documentation-folder
 * categories determine in which main category child-page belongs
   * 'kayttoliittyma-ja-perustoiminnot'-category means that child page is listed under that 'parent'-page
 
 #### Translations
-* Some files have l20n-translates, for example
+* Some files have l20n-translates at the moment, for example
 ```
 _posts/kayttoliittyma-ja-perustoiminnot/2014-06-11-ohjelmien-kaynnistaminen.markdown
 ```
