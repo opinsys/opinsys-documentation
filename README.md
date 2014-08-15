@@ -86,7 +86,7 @@ locales/
 #### Site images
 * are located in assets/images
 
-### Styles (.styl)
+#### Styles (.styl)
 * are locates in assets/styles
 
 ### Publish site to gh-pages
