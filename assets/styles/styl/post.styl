@@ -45,6 +45,16 @@
       &:after
         content ", "
 
+.anchor-link-wrap
+    margin 1rem 0
+  .anchor-links
+    &:after
+      content " – "
+      margin 0 .5rem
+    &:last-child
+      &:after
+        content ""
+
 @media screen-breakpoint-two
   .post
     .pure-u-11-24
