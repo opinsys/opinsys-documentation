@@ -22,8 +22,6 @@
 
 <mainTitle "{{ name }} system guide">
 
-<mainText "Ohjeet Opinsysin järjestelmän käyttöön...">
-
 <allHelpDocuments "All documents:">
 
 /* end of root index.html */

@@ -400,6 +400,16 @@ img {
 .post-categories li span:after {
   content: ", ";
 }
+.anchor-link-wrap {
+  margin: 1rem 0;
+}
+.anchor-links:after {
+  content: " – ";
+  margin: 0 0.5rem;
+}
+.anchor-links:last-child:after {
+  content: "";
+}
 @media screen and (max-width: 768px) {
   .post .pure-u-11-24 {
     width: 100%;
