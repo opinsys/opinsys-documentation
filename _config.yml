@@ -2,7 +2,7 @@ name: Opinsys ohjesivusto
 markdown: redcarpet
 redcarpet:
   extensions: ["tables"]
-exclude: [node_modules, assets/styles/styl]
+exclude: [node_modules, assets/styles/styl, package.json]
 highlighter: pygments
 permalink: /:categories/:title
 baseurl: /opinsys-documentation
