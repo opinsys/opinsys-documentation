@@ -22,8 +22,6 @@
 
 <mainTitle "{{ name.genitive }} järjestelmän käyttöopas">
 
-<mainText "Ohjeet Opinsysin järjestelmän käyttöön...">
-
 <allHelpDocuments "Kaikki ohjeet:">
 
 /* end of root index.html */
