@@ -2,6 +2,7 @@
 layout: default
 lang: fi
 title: Ongelmatilanteet ja tuki
+head_title: Opinsysin järjestelmän käyttöopas
 icon: icon-help-circled
 ---
 <div class="main-area pure-u-1">
@@ -9,7 +10,7 @@ icon: icon-help-circled
 
   <h2>Yleistä:</h2>
   <p>Opinsys-tukipalvelu: <a href="http://tuki.opinsys.fi" title="tuki.opinsys.fi">tuki.opinsys.fi</a></p>
-  <p>Puhelintuki: klo 8-16, 014-xxxxxxxxx</p>
+  <p>Puhelintuki: klo 8-16, 014 459 1625</p>
   <h2>Toiminta ongelmatapauksissa</h2>
   <h3>Yleisiä ohjeita</h3>
   <ul>
@@ -18,91 +19,18 @@ icon: icon-help-circled
     <li>Ongelma on aina vakava, jos se koskee useita käyttäjiä tai laitteita.</li>
   </ul>
 
-  <h3>Tulostus ei toimi</h3>
-  <ul>
-    <li>-</li>
-  </ul>
-
-  <h3>Kirjautuminen ei toimi yksittäisellä käyttäjällä</h3>
-  <ul>
-    <li>Käynnistä laite uudelleen ja kokeile kirjautumista</li>
-    <li>Kokeile kirjautumista eri laitteella jos mahdollista. Jos kirjautuminen toimii eri laitteella, siirry kohtaan <strong>Kirjautuminen ei toimi yksittäisellä päätteellä/kannettavalla</strong></li>
-    <li>Vaihda käyttäjän salasana ja kokeile kirjautumista uudelleen</li>
-  </ul>
-
-  <h3>Kirjautuminen ei toimi yksittäisellä päätteellä</h3>
-  <ul>
-    <li>Käynnistä laite uudelleen ja kokeile kirjautumista</li>
-  </ul>
-
-  <h3>Kirjautuminen ei toimi yksittäisellä kannettavalla</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Kirjautuminen ei toimi usealla käyttäjällä</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Laite ei käynnisty kirjautumisruutuun</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Näyttöön ei tule kuvaa</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Videotykin ja näytön näkymät ovat erilaiset</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Ääni ei kuulu</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Videotykiltä ei näy kuvaa lainkaan</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Dokumenttikameran kuva ei näy videotykillä</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Älytaulun kosketus häviää</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Tietokone on jumissa</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Tietokone käynnistyy hitaasti</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Ohjelma ei käynnisty</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Langaton verkko ei toimi</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Langaton verkko toimii hitaasti</h3>
-
-    <ul><li>-</li></ul>
-
-  <h3>Selaimella ei pääse internetiin</h3>
-
-    <ul><li>-</li></ul>
-
- {% if site.categories.ongelmatilanteet-ja-tuki %}
-  <div class="pure-u-1">
+  <div class="pure-u-1 anchor-link-wrap">
     <h3>Ohjeet:</h3>
-    <ul class="posts">
       {% for post in site.categories.ongelmatilanteet-ja-tuki %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        <a class="anchor-links" href="#{{post.anchor}}">{{ post.title }}</a>
       {% endfor %}
-    </ul>
   </div>
-  {% endif %}
+
+  <div class="pure-u-1">
+      {% for post in site.categories.ongelmatilanteet-ja-tuki %}
+        <div>
+          {{ post.content }}
+        </div>
+      {% endfor %}
+  </div>
 </div>
