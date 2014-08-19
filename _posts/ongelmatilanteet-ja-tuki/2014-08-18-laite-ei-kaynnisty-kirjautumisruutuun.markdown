@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Laite ei käynnisty kirjautumisruutuun"
+anchor: laite-ei-kaynnisty-kirjautumisruutuun
+date:   2014-08-18 11:31:26
+categories: ongelmatilanteet-ja-tuki
+parent_page_title: Ongelmatilanteet ja tuki
+tags:
+  - käynnistyminen
+---
+
+### <a name="laite-ei-kaynnisty-kirjautumisruutuun">Laite ei käynnisty kirjautumisruutuun</a>
+* Ruudussa lukee: Media test failure, check cable. Verkkokaapeli ei ole kytketty
+* Ruudussa lukee: Exiting PXE network tai pitkään DHCP, eikä käynnistyminen etene. Kone on väärässä verkossa. Kokeile vaihtaa toiseen verkkorasiaan.
+
