@@ -87,7 +87,7 @@ locales/
 * are located in assets/images
 
 #### Styles (.styl)
-* are locates in assets/styles
+* are located in assets/styles
 
 ### Publish site to gh-pages
 * Edit/add/remove files at your local development enviroment. When you are done:
