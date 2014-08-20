@@ -79,7 +79,7 @@
   <li>Valitse käynnistettävä ohjelma</li>
 """>
 
-<startProgramSearchTitle "Haku-toiminto">
+<startProgramSearchTitle "Haku-kenttä">
 <startProgramSearchText """
   <li>Valitse Menu</li>
   <li>Kirjoita hakukenttään haettava asia. Hakutulokset tulevat näkyviin automaattisesti.</li>
