@@ -3,7 +3,7 @@ Opinsys-documentation
 
 Opinsys system documentation
 
-### Local development
+### Setup
 
 * Install Jekyll
 ```
@@ -20,9 +20,18 @@ git clone git@github.com:opinsys/opinsys-documentation.git
 
 ```bash
   npm install
+```
+
+### Site development
+
+* Start Jekyll
+
+```bash
   jekyll serve --watch --baseurl ''
 ```
-* and then open http://0.0.0.0:4000/
+* if you are running Jekyll on your local computer, open http://0.0.0.0:4000/
+* if you are using Opinsys dev-server, open SERVER_IP:4000
+
 * more about [Jekyll basic usage](http://jekyllrb.com/docs/usage/)
 
 * At the moment we need to use baseurl in _config.yml because site is in http://opinsys.github.io/opinsys-documentation/
@@ -74,12 +83,12 @@ tags:
 
 #### Translations
 * Some files have l20n-translates at the moment, for example
-```
+```bash
 _posts/kayttoliittyma-ja-perustoiminnot/2014-06-11-ohjelmien-kaynnistaminen.markdown
 ```
 
 * Locale-files are in
-```
+```bash
 locales/
 ```
 
@@ -89,16 +98,30 @@ locales/
 #### Styles (.styl)
 * are located in assets/styles
 
-### Publish site to gh-pages
-* Edit/add/remove files at your local development enviroment. When you are done:
+### Build site and add changes to Git
+* When you have done your changes to the site files you need to build the site and add + commit those changes to git
+* Stop jekyll server with ctrl + c
+* Build the site
 
 ```bash
 jekyll build
+```
+* Do git stuff but don't add _site/ at this point
+
+```bash
+git add FOLDER/FILENAME(S)
+git commit -m "YOUR COMMIT MESSAGE"
+git push origin master
+```
+#### Publish site to gh-pages
+* Add _site to git and push it to the gh-pages branch
+
+```bash
 git add _site && git commit -m "YOUR COMMIT MESSAGE"
 git subtree push --prefix _site origin gh-pages
 ```
 
-### Uses
+### This site uses
 * [jekyl-lunr-js-search](https://github.com/slashdotdash/jekyll-lunr-js-search)
 * [swipebox](https://github.com/brutaldesign/swipebox)
 * [l20n](http://l20n.org/)
