@@ -24,11 +24,12 @@ tags:
 <ol>
   <li>Valitse Menu</li>
   <li>Valitse Internet-kategoria</li>
-  <li>Valitse Firefox tai Chromium</li>
+  <li>Valitse Firefox tai</li>
+  <li>Valitse Chromium</li>
 </ol>
 <ul>
   <li>
-    <small>Vaihtoehtoinen tapa on käyttää Menun Haku-toimintoa tai valita selaimen ikoni alapalkista</small>
+    <small>Vaihtoehtoinen tapa on käyttää Menun Haku-kenttää tai valita selaimen ikoni alapalkista</small>
   </li>
 </ul>
 </div>
@@ -46,11 +47,11 @@ tags:
     </a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/menu-internet-firefox.png" title="3. Valitse Firefox tai Chromium" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/menu-internet-firefox-small.png" alt="3. Valitse Firefox tai Chromium">
+    <a href="{{ site.baseurl }}/assets/images/menu-internet-firefox.png" title="3. Valitse Firefox" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-internet-firefox-small.png" alt="3. Valitse Firefox">
     </a>
-    <a href="{{ site.baseurl }}/assets/images/menu-internet-chromium.png" title="3. Valitse Firefox tai Chromium" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/menu-internet-chromium-small.png" alt="3. Valitse Firefox tai Chromium">
+    <a href="{{ site.baseurl }}/assets/images/menu-internet-chromium.png" title="4. Valitse Chromium" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-internet-chromium-small.png" alt="4. Valitse Chromium">
     </a>
   </li>
 </ul>
@@ -75,11 +76,12 @@ Opinsys-järjestelmästä löytyy esiasennettuna Thunderbird- ja Evolution -säh
 <ol>
   <li>Valitse Menu</li>
   <li>Valitse Internet-kategoria</li>
-  <li>Valitse Thunderbird tai Evolution</li>
+  <li>Valitse Thunderbird tai</li>
+  <li>Valitse Evolution</li>
 </ol>
 <ul>
   <li>
-    <small>Vaihtoehtoinen tapa on käyttää Menun Haku-toimintoa</small>
+    <small>Vaihtoehtoinen tapa on käyttää Menun Haku-kenttää</small>
   </li>
 </ul>
 </div>
@@ -96,11 +98,11 @@ Opinsys-järjestelmästä löytyy esiasennettuna Thunderbird- ja Evolution -säh
       </a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/menu-internet-thunderbird.png" title="3. Valitse Thunderbird tai Evolution">
-        <img src="{{ site.baseurl }}/assets/images/menu-internet-thunderbird-small.png" alt="3. Valitse Thunderbird tai Evolution">
+      <a href="{{ site.baseurl }}/assets/images/menu-internet-thunderbird.png" title="3. Valitse Thunderbird">
+        <img src="{{ site.baseurl }}/assets/images/menu-internet-thunderbird-small.png" alt="3. Valitse Thunderbird">
       </a>
-      <a href="{{ site.baseurl }}/assets/images/menu-internet-evolution.png" title="3. Valitse Thunderbird tai Evolution">
-        <img src="{{ site.baseurl }}/assets/images/menu-internet-evolution-small.png" alt="3. Valitse Thunderbird tai Evolution">
+      <a href="{{ site.baseurl }}/assets/images/menu-internet-evolution.png" title="4. Valitse Evolution">
+        <img src="{{ site.baseurl }}/assets/images/menu-internet-evolution-small.png" alt="4. Valitse Evolution">
       </a>
     </li>
   </ul>

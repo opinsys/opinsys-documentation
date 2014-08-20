@@ -12,8 +12,31 @@ tags:
   - cd/dvd-asemat
 ---
 
-### Älytaulut
-Opinsys-järjestelmässä voidaan käyttää eri laitevalmistajien älytaululaitteita. Kaikkien valmistajien laitteet eivät kuitenkaan toimi, vaan yhteensopivuus tulee tarkistaa Opinsysiltä aina etukäteen ennen laitteen hankintaa.
+### Interaktiiviset valkotaulut eli älytaulut
+Opinsys-järjestelmässä voidaan käyttää eri laitevalmistajien älytaululaitteita. Seuraavassa on esitelty asiakkaillamme käytössä olevia laitemalleja. Muiden osalta emme voi taata täyttä toimivuutta laitetta testaamatta.
+
+#### Smartboard
+Smartboard-laitteet  ovat parhaiten tuettuja älytauluja. Järjestelmässä pyritään pitämään aina uusinta Smartboard-ohjelmiston linux-versiota. Lisätietoja ohjelmiston laitetuesta löydät Smartboardin sivuilta.
+
+* SB680
+* SB800
+
+#### Mimio
+Mimion interaktiivisista valkotauluista kokemusta on ainoastaan MimioTeach-laitteesta. Mimion osalta järjestelmän tuki on rajoittunut Mimio Studion versioon 12.
+
+* Mimio Teach
+
+#### Epson älyprojektorit
+Epson älyprojektoreista tuettuja laitteita ovat sellaiset projektorit jotka näkyvät tietokoneelle normaalina hiirilaitteena. Neeivät siten tarvitse erillistä ohjelmistoa toimiakseen. Näistä meillä on kokemusta seuraavista laitteista.
+
+* sdfsdf
+* sdfs
+
+#### Ebeam
+Ebeamin laitetuki on erittäin rajoittunut ja sen Linux-ohjelmisto on heikko laatuinen. Ebeam-ohjelmisto aktivoituu, kun tuettu laite on kytkettynä tietokoneeseen. Ebeam-laitteista meillä on kokeumusta vain seuraavasta mallista
+
+* Ebeam - xxxxxxxxxx
+
 
 ### Skannerit
 

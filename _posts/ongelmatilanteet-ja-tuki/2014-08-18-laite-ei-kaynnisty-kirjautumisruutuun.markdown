@@ -10,6 +10,8 @@ tags:
 ---
 
 ### <a name="laite-ei-kaynnisty-kirjautumisruutuun">Laite ei käynnisty kirjautumisruutuun</a>
-* Ruudussa lukee: Media test failure, check cable. Verkkokaapeli ei ole kytketty
-* Ruudussa lukee: Exiting PXE network tai pitkään DHCP, eikä käynnistyminen etene. Kone on väärässä verkossa. Kokeile vaihtaa toiseen verkkorasiaan.
+* Ruudussa lukee: Media test failure, check cable.
+  * Verkkokaapeli ei ole kytketty, kytke verkkokaapeli
+* Ruudussa lukee: Exiting PXE network tai pitkään DHCP, eikä käynnistyminen etene.
+  * Kone on väärässä verkossa. Kokeile vaihtaa verkkokaapeli toiseen verkkorasiaan.
 

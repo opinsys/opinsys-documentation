@@ -43,6 +43,9 @@ tags: ohjeet käynnistys sammutus kirjautuminen
   </li>
 </ul>
 </div>
+
+---
+
 <div class="pure-u-11-24">
   <h4>Voit sammuttaa tietokoneen alapaneelin sammuta-painikkeesta</h4>
 <ol>
@@ -60,6 +63,8 @@ tags: ohjeet käynnistys sammutus kirjautuminen
   </li>
 </ul>
 </div>
+
+---
 
 <div class="pure-u-11-24">
 <h4>Voit sammuttaa tietokoneen kirjautumisruudussa</h4>
