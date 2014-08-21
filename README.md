@@ -99,13 +99,13 @@ locales/
 <div class="pure-u-11-24 images">
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu">
+    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Napsauta Menu" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Napsauta Menu">
     </a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen.png" class="swipebox" title="2. Valitse Poistu">
-      <img src="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen-small.png" alt="2. Valitse Poistu">
+    <a href="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen.png" class="swipebox" title="2. Napsauta Poistu">
+      <img src="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen-small.png" alt="2. Napsauta Poistu">
       </a>
   </li>
 </ul>
