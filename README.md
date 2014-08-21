@@ -92,8 +92,29 @@ _posts/kayttoliittyma-ja-perustoiminnot/2014-06-11-ohjelmien-kaynnistaminen.mark
 locales/
 ```
 
-#### Site images
+#### Site images and videos
 * are located in assets/images
+* use this structure when you add new images to any page
+```
+<div class="pure-u-11-24 images">
+<ul>
+  <li>
+    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu">
+    </a>
+  </li>
+  <li>
+    <a href="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen.png" class="swipebox" title="2. Valitse Poistu">
+      <img src="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen-small.png" alt="2. Valitse Poistu">
+      </a>
+  </li>
+</ul>
+</div>
+```
+* use this structure when you add new youtube/vimeo -videos to any page
+```
+<i class="icon-video"></i> <a class="swipebox-video" href="http://www.youtube.com/watch?v=c0BJZy7sXlA">Salasanan vaihto-ohjevideo</a>
+```
 
 #### Styles (.styl)
 * are located in assets/styles
