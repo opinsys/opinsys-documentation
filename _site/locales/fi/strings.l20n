@@ -74,14 +74,14 @@
 <startProgramText "Ohjelmat on jaoteltu Menussa kategorioihin.">
 
 <startProgramList """
-  <li>Valitse Menu</li>
-  <li>Valitse haluttu kategoria</li>
-  <li>Valitse käynnistettävä ohjelma</li>
+  <li>Napsauta Menu</li>
+  <li>Napsauta haluttu kategoria</li>
+  <li>Napsauta käynnistettävä ohjelma</li>
 """>
 
 <startProgramSearchTitle "Haku-kenttä">
 <startProgramSearchText """
-  <li>Valitse Menu</li>
+  <li>Napsauta Menu</li>
   <li>Kirjoita hakukenttään haettava asia. Hakutulokset tulevat näkyviin automaattisesti.</li>
 """>
 
