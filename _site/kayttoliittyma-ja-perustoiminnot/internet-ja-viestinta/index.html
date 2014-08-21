@@ -226,6 +226,12 @@ Opinsys-järjestelmästä löytyy esiasennettuna Thunderbird- ja Evolution -säh
     
       <script type="text/javascript">
       $(function() {
+        // Prevent enter
+        $('#search-query').keypress(function(e){
+          if(e.which == 13){
+            e.preventDefault();
+          }
+        });
         $('#search-query').lunrSearch({
           indexUrl: '/opinsys-documentation/search.json', // URL of the `search.json` index data for your site
           results:  '#search-results',                // jQuery selector for the search results container

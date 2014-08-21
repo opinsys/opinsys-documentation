@@ -344,6 +344,9 @@ img {
     font-weight: 200;
   }
 }
+.post h4 {
+  margin-top: 1.5rem;
+}
 .post ol {
   list-style: decimal;
   margin-bottom: 2rem;
