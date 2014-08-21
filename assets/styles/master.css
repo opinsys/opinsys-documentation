@@ -263,6 +263,7 @@ img {
 .main-area .main-title {
   font-size: 300%;
   padding: 0;
+  word-wrap: break-word;
 }
 .main-area h3 {
   margin-top: 1.5rem;
