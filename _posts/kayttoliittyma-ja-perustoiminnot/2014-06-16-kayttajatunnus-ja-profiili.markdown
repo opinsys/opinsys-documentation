@@ -22,8 +22,8 @@ Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätu
 <div class="pure-u-11-24">
 <h2>Näin vaihdat oman salasanasi</h2>
 <ol>
-  <li>Valitse Menu</li>
-  <li>Valitse Salasana</li>
+  <li>Napsauta Menu</li>
+  <li>Napsauta Salasana</li>
   <li> Kirjoita
     <ol>
       <li>oma käyttäjätunnus</li>
@@ -32,20 +32,20 @@ Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätu
       <li>kirjoita uusi salasana uudelleen</li>
     </ol>
   </li>
-  <li>Valitse Vaihda salasana</li>
+  <li>Napsauta Vaihda salasana</li>
 </ol>
 
 </div>
 <div class="pure-u-11-24 images">
   <ul>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox"><img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu"></a>
+      <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Napsauta Menu" class="swipebox"><img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Napsauta Menu"></a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/menu-valitse-salasana.png" title="2. Valitse Salasana" class="swipebox"><img src="{{ site.baseurl }}/assets/images/menu-valitse-salasana-small.png" alt="2. Valitse Salasana"></a>
+      <a href="{{ site.baseurl }}/assets/images/menu-valitse-salasana.png" title="2. Napsauta Salasana" class="swipebox"><img src="{{ site.baseurl }}/assets/images/menu-valitse-salasana-small.png" alt="2. Napsauta Salasana"></a>
       </li>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/vaihda-salasana.png" title="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen. 4. Valitse Vaihda salasana" class="swipebox"><img src="{{ site.baseurl }}/assets/images/vaihda-salasana-small.png" alt="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen. 4. Valitse Vaihda salasana"></a>
+      <a href="{{ site.baseurl }}/assets/images/vaihda-salasana.png" title="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen. 4. Napsauta Vaihda salasana" class="swipebox"><img src="{{ site.baseurl }}/assets/images/vaihda-salasana-small.png" alt="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen. 4. Napsauta Vaihda salasana"></a>
     </li>
   </ul>
 </div>
@@ -58,20 +58,20 @@ Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätu
 <h2>Profiilin tietojen muokkaus</h2>
 Käyttäjä voi muokata omia profiilitietoja.
 <ol>
-  <li>Valitse Menu</li>
-  <li>Valitse oma nimesi</li>
+  <li>Napsauta Menu</li>
+  <li>Napsauta oma nimesi</li>
   <li> Kirjaudu kirjoittamalla
     <ol>
       <li>Käyttäjätunnuksesi</li>
       <li>Salasanasi</li>
-      <li>Valitse Kirjaudu</li>
+      <li>Napsauta Kirjaudu</li>
     </ol>
   </li>
   <li> Muokkaa omia tietoja
     <ol>
       <li>Puhelinnumero</li>
       <li>Kuva</li>
-      <li>Valitse Päivitä tiedot</li>
+      <li>Napsauta Päivitä tiedot</li>
     </ol>
   </li>
 </ol>
@@ -79,12 +79,12 @@ Käyttäjä voi muokata omia profiilitietoja.
 <div class="pure-u-11-24 images">
   <ul>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu">
+      <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Napsauta Menu" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Napsauta Menu">
       </a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/menu-profiilin-muokkaus.png" title="2. Valitse oma nimesi" class="swipebox">  <img src="{{ site.baseurl }}/assets/images/menu-profiilin-muokkaus-small.png" alt="2. Valitse oma nimesi">
+      <a href="{{ site.baseurl }}/assets/images/menu-profiilin-muokkaus.png" title="2. Napsauta oma nimesi" class="swipebox">  <img src="{{ site.baseurl }}/assets/images/menu-profiilin-muokkaus-small.png" alt="2. Napsauta oma nimesi">
       </a>
       </li>
     <li>
@@ -104,8 +104,8 @@ Käyttäjä voi muokata omia profiilitietoja.
 <div class="pure-u-11-24">
 <h2>Järjestelmäasetukset</h2>
 <ol>
-  <li>Valitse Menu</li>
-  <li>Valitse Järjestelmäasetukset</li>
+  <li>Napsauta Menu</li>
+  <li>Napsauta Järjestelmäasetukset</li>
   <li>Voit muokata esim.
     <ol>
       <li>näytön asetuksia</li>
@@ -118,13 +118,13 @@ Käyttäjä voi muokata omia profiilitietoja.
 <div class="pure-u-11-24 images">
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu">
+    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Napsauta Menu" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Napsauta Menu">
     </a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/menu-jarjestelma-asetukset.png" title="2. Valitse Järjestelmäasetukset" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/menu-jarjestelma-asetukset-small.png" alt="2. Valitse Järjestelmäasetukset">
+    <a href="{{ site.baseurl }}/assets/images/menu-jarjestelma-asetukset.png" title="2. Napsauta Järjestelmäasetukset" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-jarjestelma-asetukset-small.png" alt="2. Napsauta Järjestelmäasetukset">
     </a>
   </li>
   <li>

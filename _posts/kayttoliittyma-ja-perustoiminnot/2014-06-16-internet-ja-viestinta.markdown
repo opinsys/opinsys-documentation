@@ -22,10 +22,10 @@ tags:
 
 <h3>Selainten käynnistys:</h3>
 <ol>
-  <li>Valitse Menu</li>
-  <li>Valitse Internet-kategoria</li>
-  <li>Valitse Firefox tai</li>
-  <li>Valitse Chromium</li>
+  <li>Napsauta Menu</li>
+  <li>Napsauta Internet-kategoria</li>
+  <li>Napsauta Firefox tai</li>
+  <li>Napsauta Chromium</li>
 </ol>
 <ul>
   <li>
@@ -37,21 +37,21 @@ tags:
 <div class="pure-u-11-24 images">
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu">
+    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Napsauta Menu" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Napsauta Menu">
     </a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/menu-internet.png" title="2. Valitse Internet-kategoria" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/menu-internet-small.png" alt="2. Valitse Internet-kategoria">
+    <a href="{{ site.baseurl }}/assets/images/menu-internet.png" title="2. Napsauta Internet-kategoria" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-internet-small.png" alt="2. Napsauta Internet-kategoria">
     </a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/menu-internet-firefox.png" title="3. Valitse Firefox" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/menu-internet-firefox-small.png" alt="3. Valitse Firefox">
+    <a href="{{ site.baseurl }}/assets/images/menu-internet-firefox.png" title="3. Napsauta Firefox" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-internet-firefox-small.png" alt="3. Napsauta Firefox">
     </a>
-    <a href="{{ site.baseurl }}/assets/images/menu-internet-chromium.png" title="4. Valitse Chromium" class="swipebox">
-      <img src="{{ site.baseurl }}/assets/images/menu-internet-chromium-small.png" alt="4. Valitse Chromium">
+    <a href="{{ site.baseurl }}/assets/images/menu-internet-chromium.png" title="4. Napsauta Chromium" class="swipebox">
+      <img src="{{ site.baseurl }}/assets/images/menu-internet-chromium-small.png" alt="4. Napsauta Chromium">
     </a>
   </li>
 </ul>
@@ -74,10 +74,10 @@ Opinsys-järjestelmästä löytyy esiasennettuna Thunderbird- ja Evolution -säh
 </ul>
 <h3>Sähköpostisovellusten käynnistys:</h3>
 <ol>
-  <li>Valitse Menu</li>
-  <li>Valitse Internet-kategoria</li>
-  <li>Valitse Thunderbird tai</li>
-  <li>Valitse Evolution</li>
+  <li>Napsauta Menu</li>
+  <li>Napsauta Internet-kategoria</li>
+  <li>Napsauta Thunderbird tai</li>
+  <li>Napsauta Evolution</li>
 </ol>
 <ul>
   <li>
@@ -88,21 +88,21 @@ Opinsys-järjestelmästä löytyy esiasennettuna Thunderbird- ja Evolution -säh
 <div class="pure-u-11-24 images">
   <ul>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox">
-        <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu">
+      <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Napsauta Menu" class="swipebox">
+        <img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Napsauta Menu">
       </a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/menu-internet.png" title="2. Valitse Internet-kategoria" class="swipebox">
-        <img src="{{ site.baseurl }}/assets/images/menu-internet-small.png" alt="2. Valitse Internet-kategoria">
+      <a href="{{ site.baseurl }}/assets/images/menu-internet.png" title="2. Napsauta Internet-kategoria" class="swipebox">
+        <img src="{{ site.baseurl }}/assets/images/menu-internet-small.png" alt="2. Napsauta Internet-kategoria">
       </a>
     </li>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/menu-internet-thunderbird.png" title="3. Valitse Thunderbird">
-        <img src="{{ site.baseurl }}/assets/images/menu-internet-thunderbird-small.png" alt="3. Valitse Thunderbird">
+      <a href="{{ site.baseurl }}/assets/images/menu-internet-thunderbird.png" title="3. Napsauta Thunderbird">
+        <img src="{{ site.baseurl }}/assets/images/menu-internet-thunderbird-small.png" alt="3. Napsauta Thunderbird">
       </a>
-      <a href="{{ site.baseurl }}/assets/images/menu-internet-evolution.png" title="4. Valitse Evolution">
-        <img src="{{ site.baseurl }}/assets/images/menu-internet-evolution-small.png" alt="4. Valitse Evolution">
+      <a href="{{ site.baseurl }}/assets/images/menu-internet-evolution.png" title="4. Napsauta Evolution">
+        <img src="{{ site.baseurl }}/assets/images/menu-internet-evolution-small.png" alt="4. Napsauta Evolution">
       </a>
     </li>
   </ul>

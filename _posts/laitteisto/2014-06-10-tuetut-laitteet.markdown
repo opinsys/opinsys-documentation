@@ -29,30 +29,10 @@ Mimion interaktiivisista valkotauluista kokemusta on ainoastaan MimioTeach-laitt
 #### Epson älyprojektorit
 Epson älyprojektoreista tuettuja laitteita ovat sellaiset projektorit jotka näkyvät tietokoneelle normaalina hiirilaitteena. Ne eivät siten tarvitse erillistä ohjelmistoa toimiakseen. Näistä meillä on kokemusta seuraavista laitteista.
 
-* TULOSSA
+* Epson EB-485Wi
+* Epson EB-1410Wi
 
 #### Ebeam
 Ebeamin laitetuki on erittäin rajoittunut ja sen Linux-ohjelmisto on heikko laatuinen. Ebeam-ohjelmisto aktivoituu, kun tuettu laite on kytkettynä tietokoneeseen. Ebeam-laitteista meillä on kokeumusta vain seuraavasta mallista
-
-* TULOSSA
-
-
-### Skannerit
-
-* TULOSSA
-
-#### Laitteen käyttöönotto
-
-* TULOSSA
-
-#### Tuetut laitteet
-
-* TULOSSA
-
-### Dokumenttikamerat
-
-* TULOSSA
-
-### CD/DVD-asemat
 
 * TULOSSA

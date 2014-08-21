@@ -31,9 +31,9 @@ tags: ohjeet käynnistys sammutus kirjautuminen
 <h2>Sammutus</h2>
 <h4>Voit sammuttaa tietokoneen Menun kautta</h4>
 <ol>
-  <li>Valitse Menu</li>
-  <li>Valitse Poistu</li>
-  <li>Valitse Sammuta</li>
+  <li>Napsauta Menu</li>
+  <li>Napsauta Poistu</li>
+  <li>Napsauta Sammuta</li>
 </ol>
 
 </div>
@@ -41,13 +41,13 @@ tags: ohjeet käynnistys sammutus kirjautuminen
 <div class="pure-u-11-24 images">
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Valitse Menu" class="swipebox"><img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Valitse Menu"></a>
+    <a href="{{ site.baseurl }}/assets/images/valitse-menu.png" title="1. Napsauta Menu" class="swipebox"><img src="{{ site.baseurl }}/assets/images/valitse-menu-small.png" alt="1. Napsauta Menu"></a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen.png" class="swipebox" title="2. Valitse Poistu"><img src="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen-small.png" alt="2. Valitse Poistu"></a>
+    <a href="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen.png" class="swipebox" title="2. Napsauta Poistu"><img src="{{ site.baseurl }}/assets/images/menu-poistu-aktiivinen-small.png" alt="2. Napsauta Poistu"></a>
   </li>
   <li>
-  <a href="{{ site.baseurl }}/assets/images/menu-poistu-sammuta.png" class="swipebox" title="3. Valitse Sammuta"><img src="{{ site.baseurl }}/assets/images/menu-poistu-sammuta-small.png" alt="3. Valitse Sammuta"></a>
+  <a href="{{ site.baseurl }}/assets/images/menu-poistu-sammuta.png" class="swipebox" title="3. Napsauta Sammuta"><img src="{{ site.baseurl }}/assets/images/menu-poistu-sammuta-small.png" alt="3. Napsauta Sammuta"></a>
   </li>
 </ul>
 </div>
@@ -57,17 +57,17 @@ tags: ohjeet käynnistys sammutus kirjautuminen
 <div class="pure-u-11-24">
   <h4>Voit sammuttaa tietokoneen alapaneelin sammuta-painikkeesta</h4>
 <ol>
-  <li>Valitse alavalikon oikean alakulman sammuta-painike</li>
-  <li>Valitse Sammuta</li>
+  <li>Napsauta alavalikon oikean alakulman sammuta-painike</li>
+  <li>Napsauta Sammuta</li>
 </ol>
 </div>
 <div class="pure-u-11-24 images">
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/sammuta-alavalikko.png" class="swipebox" title="1. Valitse alavalikon oikean alakulman sammuta-painike"><img src="{{ site.baseurl }}/assets/images/sammuta-alavalikko-small.png" alt="1. Valitse alavalikon oikean alakulman sammuta-painike"></a>
+    <a href="{{ site.baseurl }}/assets/images/sammuta-alavalikko.png" class="swipebox" title="1. Napsauta alavalikon oikean alakulman sammuta-painike"><img src="{{ site.baseurl }}/assets/images/sammuta-alavalikko-small.png" alt="1. Napsauta alavalikon oikean alakulman sammuta-painike"></a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/sammuta-alavalikko-auki.png" class="swipebox" title="2. Valitse Sammuta"><img src="{{ site.baseurl }}/assets/images/sammuta-alavalikko-auki-small.png" alt="2. Valitse Sammuta"></a>
+    <a href="{{ site.baseurl }}/assets/images/sammuta-alavalikko-auki.png" class="swipebox" title="2. Napsauta Sammuta"><img src="{{ site.baseurl }}/assets/images/sammuta-alavalikko-auki-small.png" alt="2. Napsauta Sammuta"></a>
   </li>
 </ul>
 </div>
@@ -77,18 +77,18 @@ tags: ohjeet käynnistys sammutus kirjautuminen
 <div class="pure-u-11-24">
 <h4>Voit sammuttaa tietokoneen kirjautumisruudussa</h4>
 <ol>
-  <li>Valitse oikean yläkulman sammuta-painike</li>
-  <li>Valitse Sammuta</li>
+  <li>Napsauta oikean yläkulman sammuta-painike</li>
+  <li>Napsauta Sammuta</li>
 </ol>
 </div>
 
 <div class="pure-u-11-24 images">
 <ul>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike.png" class="swipebox" title="1. Valitse oikean yläkulman sammuta-painike"><img src="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike-small.png" alt="1. Valitse oikean yläkulman sammuta-painike"></a>
+    <a href="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike.png" class="swipebox" title="1. Napsauta oikean yläkulman sammuta-painike"><img src="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike-small.png" alt="1. Napsauta oikean yläkulman sammuta-painike"></a>
   </li>
   <li>
-    <a href="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike-aktiivinen.png" class="swipebox" title="2. Valitse Sammuta"><img src="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike-aktiivinen-small.png" alt="2. Valitse Sammuta"></a>
+    <a href="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike-aktiivinen.png" class="swipebox" title="2. Napsauta Sammuta"><img src="{{ site.baseurl }}/assets/images/sammuta-kirjautumisruutu-painike-aktiivinen-small.png" alt="2. Napsauta Sammuta"></a>
   </li>
 </ul>
 </div>
