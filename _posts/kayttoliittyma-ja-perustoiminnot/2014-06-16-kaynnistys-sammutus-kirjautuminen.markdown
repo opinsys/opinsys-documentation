@@ -10,12 +10,20 @@ tags: ohjeet käynnistys sammutus kirjautuminen
 <div class="pure-u-11-24">
 
 <h2>Käynnistys</h2>
-  <p>Käynnistä tietokone painamalla sen etupaneelissa olevaa virtapainiketta.</p>
+<ol>
+  <li>
+    Käynnistä tietokone painamalla sen etupaneelissa olevaa virtapainiketta
+  </li>
+</ol>
 
 </div>
 
 <div class="pure-u-11-24 images">
-[KUVA]
+<ul>
+  <li>
+    Kuva
+  </li>
+</ul>
 </div>
 
 <div class="pure-u-11-24">
