@@ -7,8 +7,15 @@ Opinsys system documentation
 
 * Install Jekyll
 ```
-gem install jekyll
+sudo gem install jekyll nokogiri stylus
 ```
+
+*Alternatively* one can install to home directory with:
+```
+gem install --user-install jekyll nokogiri stylus
+```
+
+but do also set PATH in your shell like gem suggests you to!
 
 * Clone git repo
 
@@ -27,10 +34,10 @@ git clone git@github.com:opinsys/opinsys-documentation.git
 * Start Jekyll
 
 ```bash
-  jekyll serve --watch --baseurl ''
+  jekyll serve --watch
 ```
-* if you are running Jekyll on your local computer, open http://0.0.0.0:4000/
-* if you are using Opinsys dev-server, open SERVER_IP:4000
+* if you are running Jekyll on your local computer, open http://0.0.0.0:4000/opinsys-documentation/
+* if you are using Opinsys dev-server, open SERVER_IP:4000/opinsys-documentation/
 
 * more about [Jekyll basic usage](http://jekyllrb.com/docs/usage/)
 
