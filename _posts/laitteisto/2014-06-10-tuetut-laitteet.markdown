@@ -8,8 +8,6 @@ tags:
   - älytaulut
   - smart
   - tuetut laitteet
-  - skannerit
-  - cd/dvd-asemat
 ---
 
 ### Interaktiiviset valkotaulut eli älytaulut
