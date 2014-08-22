@@ -84,11 +84,7 @@ tags:
   * 'kayttoliittyma-ja-perustoiminnot'-category means that child page is listed under that 'parent'-page
 
 #### Translations
-* Some files have l20n-translates at the moment, for example
-```bash
-_posts/kayttoliittyma-ja-perustoiminnot/2014-06-11-ohjelmien-kaynnistaminen.markdown
-```
-
+* Some files have l20n-translates at the moment but those aren't in use
 * Locale-files are in
 ```bash
 locales/
