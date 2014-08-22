@@ -25,12 +25,12 @@ Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätu
   <li>Napsauta Menu</li>
   <li>Napsauta Salasana</li>
   <li> Kirjoita
-    <ol>
+    <ul>
       <li>oma käyttäjätunnus</li>
       <li>vanha salasana</li>
       <li>uusi salasana</li>
       <li>kirjoita uusi salasana uudelleen</li>
-    </ol>
+    </ul>
   </li>
   <li>Napsauta Vaihda salasana</li>
 </ol>
@@ -45,7 +45,10 @@ Jokaisella järjestelmän käyttäjällä on oma henkilökohtainen käyttäjätu
       <a href="{{ site.baseurl }}/assets/images/menu-valitse-salasana.png" title="2. Napsauta Salasana" class="swipebox"><img src="{{ site.baseurl }}/assets/images/menu-valitse-salasana-small.png" alt="2. Napsauta Salasana"></a>
       </li>
     <li>
-      <a href="{{ site.baseurl }}/assets/images/vaihda-salasana.png" title="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen. 4. Napsauta Vaihda salasana" class="swipebox"><img src="{{ site.baseurl }}/assets/images/vaihda-salasana-small.png" alt="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen. 4. Napsauta Vaihda salasana"></a>
+      <a href="{{ site.baseurl }}/assets/images/vaihda-salasana.png" title="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen" class="swipebox"><img src="{{ site.baseurl }}/assets/images/vaihda-salasana-small.png" alt="3. Kirjoita oma käyttäjätunnus, vanha salasana, uusi salasana, kirjoita uusi salasana uudelleen"></a>
+    </li>
+    <li>
+      <a href="{{ site.baseurl }}/assets/images/vaihda-salasana-napsauta.png" title="4. Napsauta Vaihda salasana" class="swipebox"><img src="{{ site.baseurl }}/assets/images/vaihda-salasana-napsauta-small.png" alt="4. Napsauta Vaihda salasana"></a>
     </li>
   </ul>
 </div>
