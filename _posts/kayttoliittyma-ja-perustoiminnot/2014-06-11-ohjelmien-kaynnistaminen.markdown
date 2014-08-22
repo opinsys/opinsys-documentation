@@ -11,28 +11,30 @@ tags:
   - menu
 ---
 
-<h2 data-l10n-id="startProgramOverviewTitle"></h2>
-<p data-l10n-id="startProgramOverviewText"></p>
+<h2>Menun yleisesittely</h2>
+<p>
+  Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Menun kautta. Menu löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.
+</p>
 
 <div class="pure-u-11-24">
-<p data-l10n-id="startProgramMenuListTitle"></p>
+<p>Menusta löytyy:</p>
 
-<ol data-l10n-id="startProgramMenuList">
-  <li>
+<ol>
+  <li>Ohjelmat
     <ol>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>kategoriat</li>
+      <li>haku</li>
+      <li>eniten käytetyt ohjelmat</li>
     </ol>
   </li>
-  <li>
+  <li>Profiili ja hallinta
     <ol>
-      <li></li>
-      <li></li>
-      <li></li>
+      <li>poistu</li>
+      <li>vaihda salasana</li>
+      <li>muokkaa omia tietoja</li>
     </ol>
   </li>
-  <li></li>
+  <li>Tuki ja viestit</li>
 </ol>
 
 </div>
@@ -60,12 +62,12 @@ tags:
 
 ---
 <div class="pure-u-11-24">
-  <h2 data-l10n-id="startProgramTitle"></h2>
-  <p data-l10n-id="startProgramText"></p>
-  <ol data-l10n-id="startProgramList">
-    <li></li>
-    <li></li>
-    <li></li>
+  <h2>Ohjelmien käynnistäminen</h2>
+  <p>Ohjelmat on jaoteltu Menussa kategorioihin.</p>
+  <ol>
+    <li>Napsauta Menu</li>
+    <li>Napsauta haluttu kategoria</li>
+    <li>Napsauta käynnistettävä ohjelma</li>
   </ol>
 </div>
 
@@ -91,10 +93,10 @@ tags:
 
 ---
 <div class="pure-u-11-24">
-  <h2 data-l10n-id="startProgramSearchTitle"></h2>
-  <ol data-l10n-id="startProgramSearchText">
-    <li></li>
-    <li></li>
+  <h2>Haku-kenttä</h2>
+  <ol>
+    <li>Napsauta Menu</li>
+    <li>Kirjoita hakukenttään haettava asia, hakutulokset tulevat näkyviin automaattisesti</li>
   </ol>
 </div>
 <div class="pure-u-11-24 images">
