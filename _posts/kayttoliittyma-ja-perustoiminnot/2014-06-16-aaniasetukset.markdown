@@ -62,8 +62,8 @@ tags: ohjeet ääniasetukset
       <a href="{{ site.baseurl }}/assets/images/aaniasetukset-ulostulo.png" title="3. Ulostulo-välilehdellä voit säätää äänenvoimakkuutta ja valita äänilaitteen" class="swipebox">
         <img src="{{ site.baseurl }}/assets/images/aaniasetukset-ulostulo-small.png" alt="3. Ulostulo-välilehdellä voit säätää äänenvoimakkuutta ja valita äänilaitteen">
       </a>
-      <a href="{{ site.baseurl }}/assets/images/aaniasetukset-sisaantulo.png" title="4. Tarkemmat ääniasetukset löydät valitsemalla Ääniasetukset" class="swipebox">
-        <img src="{{ site.baseurl }}/assets/images/aaniasetukset-sisaantulo-small.png" alt="4. Tarkemmat ääniasetukset löydät valitsemalla Ääniasetukset">
+      <a href="{{ site.baseurl }}/assets/images/aaniasetukset-sisaantulo.png" title="4. Sisääntulo-välilehdellä voit säätää äänitysvoimakkuutta ja valita nauhoitusäänilaitteen" class="swipebox">
+        <img src="{{ site.baseurl }}/assets/images/aaniasetukset-sisaantulo-small.png" alt="4. Sisääntulo-välilehdellä voit säätää äänitysvoimakkuutta ja valita nauhoitusäänilaitteen">
       </a>
     </li>
   </ul>
