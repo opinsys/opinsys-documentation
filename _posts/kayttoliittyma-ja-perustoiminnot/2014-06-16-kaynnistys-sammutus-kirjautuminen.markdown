@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Käynnistys, sammutus ja kirjautuminen"
-date:   2014-06-16 12:56:26
+date:   2014-08-22
 categories: kayttoliittyma-ja-perustoiminnot
 parent_page_title: Käyttöliittymä ja perustoiminnot
 tags: ohjeet käynnistys sammutus kirjautuminen

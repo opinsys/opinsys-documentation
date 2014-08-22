@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Päätelaitteet"
-date:   2013-10-28 11:31:26
+date:   2014-08-22
 categories: laitteisto
 parent_page_title: Laitteisto
 tags: ohjeet päätelaitteet tehopääte kevytpääte kannettava

@@ -2,7 +2,7 @@
 layout: post
 title:  "Langaton verkko toimii hitaasti"
 anchor: langaton-verkko-toimii-hitaasti
-date:   2014-08-18 11:31:26
+date:   2014-08-22
 categories: ongelmatilanteet-ja-tuki
 parent_page_title: Ongelmatilanteet ja tuki
 tags:

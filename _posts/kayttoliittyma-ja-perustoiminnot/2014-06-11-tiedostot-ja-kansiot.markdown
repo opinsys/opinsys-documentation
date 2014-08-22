@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tiedostot ja kansiot"
-date:   2014-06-16 13:26:26
+date:   2014-08-22
 categories: kayttoliittyma-ja-perustoiminnot
 parent_page_title: Käyttöliittymä ja perustoiminnot
 tags: ohjeet tiedostot kansiot kotikansio jaetut kansiot

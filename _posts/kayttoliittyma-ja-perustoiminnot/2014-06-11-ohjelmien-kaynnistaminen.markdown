@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ohjelmien käynnistäminen"
-date:   2014-06-11 11:26:26
+date:   2014-08-22
 categories:
   - kayttoliittyma-ja-perustoiminnot
 parent_page_title: Käyttöliittymä ja perustoiminnot

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Käyttäjätunnukset ja -profiili"
-date:   2013-10-28 11:31:26
+date:   2014-08-22
 categories: kayttoliittyma-ja-perustoiminnot
 parent_page_title: Käyttöliittymä ja perustoiminnot
 tags:
