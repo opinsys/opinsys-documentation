@@ -101,6 +101,10 @@ locales/
 
 #### Site images and videos
 * are located in assets/images
+  * there's two versions of every image
+    * image-name.png
+    * image-name-small.png
+
 * use this structure when you add new images to any page
 ```
 <div class="pure-u-11-24 images">
