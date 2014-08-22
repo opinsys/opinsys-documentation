@@ -5,7 +5,7 @@ redcarpet:
 exclude: [node_modules, assets/styles/styl, package.json, README.md]
 highlighter: pygments
 permalink: /:categories/:title
-baseurl: /opinsys-documentation
+# baseurl: /opinsys-documentation
 variables:
   email: tuki@opinsys.fi
   facebook_page: opinsys
