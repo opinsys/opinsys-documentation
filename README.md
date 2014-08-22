@@ -1,7 +1,7 @@
 Opinsys-documentation
 =====================
 
-#### [ohjeet-opinsys.fi](http://ohjeet.opinsys.fi)
+#### Site url: [ohjeet.opinsys.fi](http://ohjeet.opinsys.fi)
 
 
 ### Setup
