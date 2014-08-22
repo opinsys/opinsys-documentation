@@ -4,6 +4,9 @@
   dative: "Opinsysille"
 }>
 
+/*
+Example:
+
 <position() { @screen.width.px < 1140 ?
              "default" : "right" }>
 
@@ -17,6 +20,7 @@
     as you see on the right.
   """
 }>
+*/
 
 /* root index.html */
 
@@ -44,12 +48,40 @@
 /* _posts */
 
 /* Ohjelmien käynnistäminen */
+
+/*
+USAGE:
+<htmlelement data-l10n-id="startProgramOverviewTitle"></htmlelement>
+*/
 <startProgramOverviewTitle "Menun yleisesittely">
+
 <startProgramOverviewText """
   Opinsys-järjestelmässä ohjelmien käynnistäminen tapahtuu Menun kautta. Menu löytyy useista muistakin käyttöjärjestelmistä tuttuun tapaan työpöydän vasemmasta alalaidasta.
 """>
 
 <startProgramMenuListTitle "Menusta löytyy:">
+
+
+/*
+USAGE:
+<ol data-l10n-id="startProgramMenuList">
+  <li>
+    <ol>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+  </li>
+  <li>
+    <ol>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ol>
+  </li>
+  <li></li>
+</ol>
+*/
 
 <startProgramMenuList """
   <li>Ohjelmat
@@ -82,7 +114,7 @@
 <startProgramSearchTitle "Haku-kenttä">
 <startProgramSearchText """
   <li>Napsauta Menu</li>
-  <li>Kirjoita hakukenttään haettava asia. Hakutulokset tulevat näkyviin automaattisesti.</li>
+  <li>Kirjoita hakukenttään haettava asia, hakutulokset tulevat näkyviin automaattisesti</li>
 """>
 
 /* end of Ohjelmien käynnistäminen */
