@@ -36,16 +36,10 @@ git clone git@github.com:opinsys/opinsys-documentation.git
 ```bash
   jekyll serve --watch
 ```
-* if you are running Jekyll on your local computer, open http://0.0.0.0:4000/opinsys-documentation/
-* if you are using Opinsys dev-server, open SERVER_IP:4000/opinsys-documentation/
+* if you are running Jekyll on your local computer, open http://0.0.0.0:4000
+* if you are using Opinsys dev-server, open SERVER_IP:4000
 
 * more about [Jekyll basic usage](http://jekyllrb.com/docs/usage/)
-
-* At the moment we need to use baseurl in _config.yml because site is in http://opinsys.github.io/opinsys-documentation/
-```
-baseurl: /opinsys-documentation
-```
-* When site url is ohjeet.opinsys.fi, there's no need for that
 
 ### Edit site text-files
 
