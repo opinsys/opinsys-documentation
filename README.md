@@ -7,8 +7,15 @@ Opinsys system documentation
 
 * Install Jekyll
 ```
-gem install jekyll nokogiri stylus
+sudo gem install jekyll nokogiri stylus
 ```
+
+*Alternatively* one can install to home directory with:
+```
+gem install --user-install jekyll nokogiri stylus
+```
+
+but do also set PATH in your shell like gem suggests you to!
 
 * Clone git repo
 
